@@ -119,7 +119,7 @@ CREDS = [
 CULTURE = {
     "headline": "Behind a lens when I'm not behind a terminal.",
     "dek": ("Photography and filmmaking: framing, light, and knowing what to cut in the edit. "
-            "It's the same instinct I bring to building products: decide what to leave out."),
+            "It's the same instinct I bring to building products: less noise, sharper focus, on camera and in code."),
 }
 
 SECTIONS = {
