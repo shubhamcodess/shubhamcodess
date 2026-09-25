@@ -52,7 +52,7 @@ def pair(x, y):
 
 README = f"""<div align="center">
 
-{block(pic("header", "Shubham Prakash. Building scalable systems with AI integrations at the core. Senior Full Stack Engineer, Team Lead, Shadow Architect."))}
+{block(pic("header", "Shubham Prakash. Building scalable systems with AI integrations at the core. Senior Full Stack Engineer, cloud native, AI-led engineering."))}
 
 {block(*(a(h, pic(f"btn-{k}", alt, "190")) for k, h, alt in BUTTONS))}
 

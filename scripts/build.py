@@ -16,7 +16,7 @@ HALF = 410  # two cards per row, 20px gutter
 
 NAME = "Shubham Prakash"
 TAGLINE = "Building scalable systems with AI integrations at the core."
-ROLES = ["SENIOR FULL STACK ENGINEER", "TEAM LEAD", "SHADOW ARCHITECT"]
+ROLES = ["SENIOR FULL STACK ENGINEER", "CLOUD NATIVE", "AI-LED ENGINEERING"]
 TICKER = [
     ("lime", "JAVA 21"), ("cyan", "SPRING BOOT"), ("violet", "MCP SERVERS"), ("pink", "AGENTIC PIPELINES"),
     ("amber", "NEXT.JS 16"), ("coral", "ANGULAR"), ("blue", "KUBERNETES · GKE"), ("mint", "RABBITMQ"),
