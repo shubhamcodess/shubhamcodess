@@ -60,4 +60,4 @@
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/culture-dark.svg"><img alt="Off the clock: photography and filmmaking" src="assets/img/culture-light.svg" width="100%"></picture></p>
 
-<p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/footer-dark.svg"><img alt="End of edition" src="assets/img/footer-light.svg" width="100%"></picture></p>
+<p><a href="https://www.linkedin.com/in/shubham-prakash-dev/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/footer-dark.svg"><img alt="Let's build something. Say hi on LinkedIn or email prakashshubham36@gmail.com" src="assets/img/footer-light.svg" width="100%"></picture></a></p>

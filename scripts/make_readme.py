@@ -99,7 +99,7 @@ README = f"""<div align="center">
 
 {block(pic("culture", "Off the clock: photography and filmmaking"))}
 
-{block(pic("footer", "End of edition"))}
+{block(a(LI, pic("footer", "Let's build something. Say hi on LinkedIn or email prakashshubham36@gmail.com")))}
 """
 
 if __name__ == "__main__":

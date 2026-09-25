@@ -161,7 +161,7 @@ def header(theme: str) -> None:
     # dateline
     y = 34
     s.text(28, y, "BANGALORE, IN", "m4", 11, "muted", tracking=0.08)
-    s.text(W / 2, y, "VOL. 06 · EST. OCT 2020", "m4", 11, "muted", anchor="middle", tracking=0.08)
+    s.text(W / 2, y, "BUILDING SINCE 2020", "m4", 11, "muted", anchor="middle", tracking=0.08)
     s.text(W - 28, y, "GITHUB.COM/SHUBHAMCODESS", "m4", 11, "muted", anchor="end", tracking=0.08)
     s.line(28, 48, W - 28, 48, "line")
 
@@ -468,10 +468,10 @@ def connect(theme: str) -> None:
 
 
 def footer(theme: str) -> None:
-    s = SVG(W, 96, theme, "End of edition")
+    s = SVG(W, 96, theme, "Let's build something. Say hi on LinkedIn or email prakashshubham36@gmail.com")
     s.line(0, 10, W, 10, "strong", sw=1)
-    s.text(W / 2, 54, "End of edition", "d7", 22, "muted", anchor="middle", tracking=-0.01)
-    s.text(W / 2, 82, "THANKS FOR READING · NEW HEADLINES EVERY MORNING", "m4", 10, "faint", anchor="middle", tracking=0.08)
+    s.text(W / 2, 54, "Let's build something.", "d7", 24, "ink", anchor="middle", tracking=-0.01)
+    s.text(W / 2, 82, "SAY HI ON LINKEDIN ↗ · PRAKASHSHUBHAM36@GMAIL.COM", "m4", 10.5, "muted", anchor="middle", tracking=0.08)
     s.save("footer")
 
 
