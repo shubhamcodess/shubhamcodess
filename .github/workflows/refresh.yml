@@ -1,0 +1,49 @@
+name: refresh
+
+on:
+  schedule:
+    - cron: "17 2 * * *" # 07:47 IST, after the newsletter's morning edition
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["scripts/**", ".github/workflows/refresh.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Refresh headlines and stats card
+        run: python scripts/update_dynamic.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/img/stats-*.svg
+          git diff --cached --quiet || (git commit -m "chore: daily refresh" && git push)
+
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?color_snake=#ff6ec7&color_dots=#1e222b,#3d4a1f,#6d8f2e,#9fcf45,#bef264
+            dist/snake-light.svg?color_snake=#c8237f&color_dots=#ebe5d8,#c5d99a,#98bd4f,#6f9a1c,#4f7d00
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore: update snake"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

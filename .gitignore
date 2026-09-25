@@ -1,0 +1,6 @@
+.venv/
+.fontsrc/
+.preview/
+.claude/
+__pycache__/
+.DS_Store
