@@ -14,9 +14,13 @@ HALF = 410  # two cards per row, 20px gutter
 
 # --------------------------------------------------------------------------- content
 
+# Header logo: "batman" (pulsing bat signal) or "s" (spinning pixel S).
+# Swap for one build without editing: .venv/bin/python scripts/build.py --logo s
+LOGO = "batman"
+
 NAME = "Shubham Prakash"
 TAGLINE = "Building scalable systems with AI integrations at the core."
-ROLES = ["SENIOR FULL STACK ENGINEER", "CLOUD NATIVE", "AI-LED ENGINEERING"]
+ROLES = ["SENIOR FULL STACK ENGINEER", "CLOUD NATIVE", "AGENTIC AI"]
 TICKER = [
     ("lime", "JAVA 21"), ("cyan", "SPRING BOOT"), ("violet", "MCP SERVERS"), ("pink", "AGENTIC PIPELINES"),
     ("amber", "NEXT.JS 16"), ("coral", "ANGULAR"), ("blue", "KUBERNETES · GKE"), ("mint", "RABBITMQ"),
@@ -150,6 +154,68 @@ def chip(s: SVG, x: float, y: float, px: float) -> None:
     s.add("</g>")
 
 
+S_PIXELS = [  # 8x8
+    ".######.",
+    "##....##",
+    "##......",
+    ".######.",
+    "......##",
+    "......##",
+    "##....##",
+    ".######.",
+]
+
+BAT_PIXELS = [  # 27x12, Dark Knight-style silhouette
+    "#####.......#.#.......#####",
+    ".######....#####....######.",
+    "..#######..#####..#######..",
+    "...#####################...",
+    "...#####################...",
+    "....###################....",
+    ".....#################.....",
+    "........###########........",
+    ".........#########.........",
+    "...........#####...........",
+    "............###............",
+    ".............#.............",
+]
+
+
+def _pixels(s: SVG, rows, x, y, px, fill) -> None:
+    for r, row in enumerate(rows):
+        for c, cell in enumerate(row):
+            if cell == "#":
+                s.add(f'<rect x="{x + c * px}" y="{y + r * px}" width="{px}" height="{px}" fill="{fill(r)}"/>')
+
+
+def logo_s(s: SVG, x: float, cy: float) -> float:
+    """Pixel-art S spinning counterclockwise; rows shade pink → cyan → lime. Returns width."""
+    px = 5
+    shades = ["pink", "pink", "pink", "cyan", "cyan", "lime", "lime", "lime"]
+    s.css.append("@keyframes spin{to{transform:rotate(-360deg)}}"
+                 ".spin{transform-box:fill-box;transform-origin:center;animation:spin 6s linear infinite}")
+    s.add('<g class="spin" shape-rendering="crispEdges">')
+    _pixels(s, S_PIXELS, x, cy - 4 * px, px, lambda r: s.c(shades[r]))
+    s.add("</g>")
+    return 8 * px
+
+
+def logo_batman(s: SVG, x: float, cy: float) -> float:
+    """Pixel bat with a hard, boxy offset shadow (like the cards), gently pulsing. Returns width."""
+    px, cols, rows = 2.6, len(BAT_PIXELS[0]), len(BAT_PIXELS)
+    y, off = cy - rows * px / 2 + 3, 3  # +3: the thin tail makes the box look high
+    s.css.append("@keyframes beat{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}"
+                 ".beat{transform-box:fill-box;transform-origin:center;animation:beat 1.8s ease-in-out infinite}")
+    s.add('<g class="beat" shape-rendering="crispEdges">')
+    _pixels(s, BAT_PIXELS, x + off, y + off, px, lambda r: "#d99a00")  # gold boxy shadow
+    _pixels(s, BAT_PIXELS, x, y, px, lambda r: "#2b303b" if s.theme == "dark" else "#1a1c23")  # charcoal reads on the dark header
+    s.add("</g>")
+    return cols * px + off
+
+
+LOGOS = {"s": logo_s, "batman": logo_batman}
+
+
 def header(theme: str) -> None:
     H = 318
     s = SVG(W, H, theme, f"{NAME}. {TAGLINE}")
@@ -169,12 +235,12 @@ def header(theme: str) -> None:
     size = 78
     name_w = measure(NAME, "d8", size, -0.035)
     cursor_w = measure("_", "d8", size)
-    px = 7.5
-    group = 8 * px + 22 + name_w + cursor_w
-    x0 = (W - group) / 2
-    chip(s, x0, 88, px)
-    s.text(x0 + 8 * px + 22, 144, NAME, "d8", size, "ink", tracking=-0.035)
-    s.text(x0 + 8 * px + 22 + name_w + 2, 144, "_", "d8", size, "pink", cls="cursor")
+    draw = LOGOS[LOGO]
+    logo_w = draw(SVG(1, 1, theme, ""), 0, 0)
+    x0 = (W - (logo_w + 22 + name_w + cursor_w)) / 2
+    draw(s, x0, 116)  # 116 = middle of the name's cap height
+    s.text(x0 + logo_w + 22, 144, NAME, "d8", size, "ink", tracking=-0.035)
+    s.text(x0 + logo_w + 22 + name_w + 2, 144, "_", "d8", size, "pink", cls="cursor")
 
     s.text(W / 2, 194, TAGLINE, "si", 22, "ink2", anchor="middle")
 
@@ -340,7 +406,11 @@ def archive(theme: str) -> None:
         s.text(x, track - 16, year, "m7", 13, color, tracking=0.06)
         if i == n - 1:
             s.add(f'<circle class="pulse" cx="{x + 5}" cy="{track}" r="6" fill="{s.c(color)}"/>')
-            s.text(x + 50, track - 16, "NOW", "m7", 10, "pink", tracking=0.12, cls="blink")
+            # "NOW" badge pinned to the card's right edge, clear of the year
+            bw = measure("NOW", "m7", 10, 0.12) + 14
+            bx = W - 28 - bw
+            s.rect(bx, track - 29, bw, 18, fill="none", stroke="pink", sw=1.5, rx=2)
+            s.text(bx + bw / 2, track - 16.5, "NOW", "m7", 10, "pink", anchor="middle", tracking=0.12, cls="blink")
         s.rect(x, track - 5, 10, 10, fill=color, rx=0)
         s.lines(x, 132, role, 19, style="d7", size=15, fill="ink", tracking=-0.01)
         s.lines(x, 132 + rh + 8, note, 18, style="si", size=13, fill="ink2")
@@ -476,6 +546,9 @@ def footer(theme: str) -> None:
 
 
 if __name__ == "__main__":
+    import sys
+    if "--logo" in sys.argv:
+        LOGO = sys.argv[sys.argv.index("--logo") + 1]
     for theme in ("dark", "light"):
         header(theme)
         for key in SECTIONS:

@@ -1,6 +1,6 @@
 <div align="center">
 
-<p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/header-dark.svg"><img alt="Shubham Prakash. Building scalable systems with AI integrations at the core. Senior Full Stack Engineer, cloud native, AI-led engineering." src="assets/img/header-light.svg" width="100%"></picture></p>
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/header-dark.svg"><img alt="Shubham Prakash. Building scalable systems with AI integrations at the core. Senior Full Stack Engineer, cloud native, agentic AI." src="assets/img/header-light.svg" width="100%"></picture></p>
 
 <p><a href="https://www.linkedin.com/in/shubham-prakash-dev/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/btn-linkedin-dark.svg"><img alt="LinkedIn" src="assets/img/btn-linkedin-light.svg" width="190"></picture></a>
 <a href="mailto:prakashshubham36@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/btn-email-dark.svg"><img alt="Email" src="assets/img/btn-email-light.svg" width="190"></picture></a>
