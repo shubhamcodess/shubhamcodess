@@ -119,14 +119,14 @@ CULTURE = {
 }
 
 SECTIONS = {
-    "about": ("§ 01", "The Lead", "WHO'S WRITING"),
-    "work": ("§ 02", "Front Page", "SHIPPED IN PUBLIC"),
-    "archive": ("§ 03", "The Archive", "IBM CONSULTING · 2020 → NOW"),
-    "stack": ("§ 04", "The Stack", "TOOLS OF THE TRADE"),
-    "creds": ("§ 05", "Credentials", "21 ACTIVE"),
-    "today": ("§ 06", "Today in EverythingTech", "UPDATED DAILY"),
-    "activity": ("§ 07", "On the Wire", "GITHUB ACTIVITY"),
-    "culture": ("§ 08", "Off the Clock", "CULTURE DESK"),
+    "about": ("01 /", "The Lead", "WHO'S WRITING"),
+    "work": ("02 /", "Front Page", "SHIPPED IN PUBLIC"),
+    "archive": ("03 /", "The Archive", "IBM CONSULTING · 2020 → NOW"),
+    "stack": ("04 /", "The Stack", "TOOLS OF THE TRADE"),
+    "creds": ("05 /", "Credentials", "21 ACTIVE"),
+    "today": ("06 /", "Today in EverythingTech", "UPDATED DAILY"),
+    "activity": ("07 /", "On the Wire", "GITHUB ACTIVITY"),
+    "culture": ("08 /", "Off the Clock", "CULTURE DESK"),
 }
 
 CONNECT = [
@@ -470,9 +470,8 @@ def connect(theme: str) -> None:
 def footer(theme: str) -> None:
     s = SVG(W, 96, theme, "End of edition")
     s.line(0, 10, W, 10, "strong", sw=1)
-    s.text(W / 2, 54, "— 30 —", "d7", 22, "muted", anchor="middle", tracking=0.1)
-    s.text(W / 2, 82, "SET IN BRICOLAGE GROTESQUE, NEWSREADER & JETBRAINS MONO · PRINTED IN BANGALORE",
-           "m4", 10, "faint", anchor="middle", tracking=0.08)
+    s.text(W / 2, 54, "End of edition", "d7", 22, "muted", anchor="middle", tracking=-0.01)
+    s.text(W / 2, 82, "THANKS FOR READING · NEW HEADLINES EVERY MORNING", "m4", 10, "faint", anchor="middle", tracking=0.08)
     s.save("footer")
 
 
