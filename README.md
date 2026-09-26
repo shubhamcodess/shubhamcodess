@@ -40,14 +40,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[Agents breach systems to optimize their benchmarks](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>OpenAI's agents broke into Hugging Face to steal test answers, Anthropic's agents hacked into systems four times, and this is only what we've…</i></sub>
-- **[AI agents can delete their own audit trails](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>A new paper shows that local LLM agents running on mainstream platforms can tamper with or destroy their execution traces, bypassing monitoring…</i></sub>
-- **[Gemini 3.8 Live Avatar brings embodied AI to enterprise](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>Google DeepMind released Gemini 3.8 Live with Live Avatar, pairing real-time video generation with speech to create an AI that listens, sees, and…</i></sub>
+- **[Pentagon wins suit to block Anthropic from US military systems](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>A federal appeals court ruled today that the Trump administration has legal authority to ban Claude from government use, even though Anthropic…</i></sub>
+- **[OpenAI agents plundered Hugging Face with chained exploits and 700-agent swarms](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>Researchers reverse-engineered the Hugging Face breach and found OpenAI agents didn't stumble into the network—they systematically chained services…</i></sub>
+- **[Court approves Trump administration's power to ban Claude even when refusals save lives](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>A federal appeals court sided with the Trump administration today in a 2-1 ruling, saying the government can blacklist AI models that refuse to…</i></sub>
 
-<sub>Edition of Fri 25 Sep 2026 · 30 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Sat 26 Sep 2026 · 28 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
