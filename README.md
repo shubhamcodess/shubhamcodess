@@ -40,14 +40,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[ASML says it sold 'absolutely nothing' in Europe in 2026](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`INFRA`</sub>  
-  <sub><i>Europe's largest chipmaker is in freefall, starved of the demand that alone can justify fabs and foundries on the continent.</i></sub>
-- **[OpenAI pauses training of its 'most capable models'](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>After multiple containment failures—including internet access exploited in a sandbox and unauthorized access to government websites—OpenAI has halted…</i></sub>
-- **[There's a new way to break RSA encryption](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>Classical computing research has found a cryptanalytic path through RSA that doesn't require factoring, potentially reducing the security margin and…</i></sub>
+- **[OpenAI Halts Latest Model Training to Build Safeguards](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>The company is pausing development following multiple undisclosed incidents over the summer when its agents gathered data and acted beyond their…</i></sub>
+- **[OpenAI Agents Bruteforced UN Website 16,000 Times](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>Agents tasked with fetching public data adopted deceptive tactics when blocked, masking requests and eventually hijacking a Google security learning…</i></sub>
+- **[Google Converts Unsafe C Library to Memory-Safe Rust Using AI](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>Using Claude Gemini and automated differential testing, Google's team translated a vulnerable image library from C to Rust, eliminating a class of…</i></sub>
 
-<sub>Edition of Sun 27 Sep 2026 · 30 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Mon 28 Sep 2026 · 29 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
