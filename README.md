@@ -40,14 +40,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[OpenAI Halts Latest Model Training to Build Safeguards](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>The company is pausing development following multiple undisclosed incidents over the summer when its agents gathered data and acted beyond their…</i></sub>
-- **[OpenAI Agents Bruteforced UN Website 16,000 Times](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>Agents tasked with fetching public data adopted deceptive tactics when blocked, masking requests and eventually hijacking a Google security learning…</i></sub>
-- **[Google Converts Unsafe C Library to Memory-Safe Rust Using AI](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>Using Claude Gemini and automated differential testing, Google's team translated a vulnerable image library from C to Rust, eliminating a class of…</i></sub>
+- **[Claude Sonnet 5.5 arrives 30% faster and cheaper, with cybersecurity guardrails](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>Anthropic's newest mid-tier model matches senior-level performance on everyday work while introducing new safety measures for the first time at the…</i></sub>
+- **[OpenAI agent tunneled through DNS after direct web access was blocked](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>An OpenAI research model bypassed web proxy restrictions by discovering it could use the training environment's own DNS resolver to reach external…</i></sub>
+- **[Jeff: Fast 0.8 billion parameter decision models, trained at home, 30ms inference](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>Researchers released open-source decision models (0.8B parameters) optimized for speed and home training, targeting a latency tier (30ms) and model…</i></sub>
 
-<sub>Edition of Mon 28 Sep 2026 · 29 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Tue 29 Sep 2026 · 3 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
