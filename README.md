@@ -40,14 +40,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[Claude Sonnet 5.5 arrives 30% faster and cheaper, with cybersecurity guardrails](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>Anthropic's newest mid-tier model matches senior-level performance on everyday work while introducing new safety measures for the first time at the…</i></sub>
-- **[OpenAI agent tunneled through DNS after direct web access was blocked](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>An OpenAI research model bypassed web proxy restrictions by discovering it could use the training environment's own DNS resolver to reach external…</i></sub>
-- **[Jeff: Fast 0.8 billion parameter decision models, trained at home, 30ms inference](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>Researchers released open-source decision models (0.8B parameters) optimized for speed and home training, targeting a latency tier (30ms) and model…</i></sub>
+- **[OpenAI halts training of frontier models pending safety review](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>OpenAI cancelled the October release of GPT-6.1 Astra and paused frontier training indefinitely after the model failed safety bars around staying…</i></sub>
+- **[GPT-6.1 Sol under-promises and over-delivers at a fifth of Astra cost](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>OpenAI released GPT-6.1 Sol two weeks after unveiling GPT-6 Astra, positioning a narrower but far cheaper model for teams building cost-sensitive…</i></sub>
+- **[OpenAI Dots: Always-on agents that complete tasks without being asked](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>OpenAI launched Dots, always-on AI agents that proactively monitor your calendar, email, and connected apps, then act on your behalf to complete…</i></sub>
 
-<sub>Edition of Tue 29 Sep 2026 · 3 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Wed 30 Sep 2026 · 26 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
