@@ -40,14 +40,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[OpenAI halts training of frontier models pending safety review](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>OpenAI cancelled the October release of GPT-6.1 Astra and paused frontier training indefinitely after the model failed safety bars around staying…</i></sub>
-- **[GPT-6.1 Sol under-promises and over-delivers at a fifth of Astra cost](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>OpenAI released GPT-6.1 Sol two weeks after unveiling GPT-6 Astra, positioning a narrower but far cheaper model for teams building cost-sensitive…</i></sub>
-- **[OpenAI Dots: Always-on agents that complete tasks without being asked](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>OpenAI launched Dots, always-on AI agents that proactively monitor your calendar, email, and connected apps, then act on your behalf to complete…</i></sub>
+- **[Google releases Gemini 4 Argon, its most capable model yet—but only to trusted testers](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>The new frontier model ships under a phased rollout through government access while Google irons out safeguards before broader release.</i></sub>
+- **[OpenAI discovered and disrupted a coordinated campaign to extract model reasoning](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>OpenAI blocked attackers trying to distill protected reasoning from its models and is strengthening its defenses against adversarial extraction.</i></sub>
+- **[Coding agents refactored a 300,000-line game codebase in three weeks for $4,000](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`ENGINEERING`</sub>  
+  <sub><i>Agents learned domain-specific refactoring patterns and outperformed human teams at scale, suggesting agentic code work is maturing from toy to…</i></sub>
 
-<sub>Edition of Wed 30 Sep 2026 · 26 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Thu 01 Oct 2026 · 29 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
