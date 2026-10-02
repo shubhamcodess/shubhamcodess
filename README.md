@@ -40,14 +40,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[Google releases Gemini 4 Argon, its most capable model yet—but only to trusted testers](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>The new frontier model ships under a phased rollout through government access while Google irons out safeguards before broader release.</i></sub>
-- **[OpenAI discovered and disrupted a coordinated campaign to extract model reasoning](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>OpenAI blocked attackers trying to distill protected reasoning from its models and is strengthening its defenses against adversarial extraction.</i></sub>
-- **[Coding agents refactored a 300,000-line game codebase in three weeks for $4,000](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`ENGINEERING`</sub>  
-  <sub><i>Agents learned domain-specific refactoring patterns and outperformed human teams at scale, suggesting agentic code work is maturing from toy to…</i></sub>
+- **[OpenAI's GPT-6 Astra Ultrafast cuts token generation time by 8x on Blackwell](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>Running on NVIDIA's latest chips, Ultrafast brings frontier-model speed to coding agents and interactive workflows without sacrificing capability.</i></sub>
+- **[Pentagon loses 2.8 million military personnel records in monthslong breach](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>Social Security numbers, occupational specialty codes that identify high-value intelligence targets, and sensitive personal data were exposed—with…</i></sub>
+- **[Google releases Gemini 4 Argon, a frontier model built for complex software engineering](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>The model handles reasoning across long workflows in cybersecurity, legal, and finance—and is already freeing up terabytes of memory across Google's…</i></sub>
 
-<sub>Edition of Thu 01 Oct 2026 · 29 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Fri 02 Oct 2026 · 30 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
