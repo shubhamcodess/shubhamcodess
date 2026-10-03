@@ -40,14 +40,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[OpenAI's GPT-6 Astra Ultrafast cuts token generation time by 8x on Blackwell](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>Running on NVIDIA's latest chips, Ultrafast brings frontier-model speed to coding agents and interactive workflows without sacrificing capability.</i></sub>
-- **[Pentagon loses 2.8 million military personnel records in monthslong breach](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>Social Security numbers, occupational specialty codes that identify high-value intelligence targets, and sensitive personal data were exposed—with…</i></sub>
-- **[Google releases Gemini 4 Argon, a frontier model built for complex software engineering](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>The model handles reasoning across long workflows in cybersecurity, legal, and finance—and is already freeing up terabytes of memory across Google's…</i></sub>
+- **[Apple tightens Full Disk Access in macOS as AI agents pose security risk](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>Apple is restricting Full Disk Access on macOS due to security risks from increasingly capable autonomous agents.</i></sub>
+- **[Stratego falls: AI defeats champion in a game that resisted machine intelligence for decades](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>Researchers from CMU, MIT, NYU, and Stanford built Ataraxos, an AI that beat the Stratego world champion 15-1 using just 16 GPUs.</i></sub>
+- **[Federal court blocks Utah VPN law as technically impossible and unconstitutionally overbroad](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>A federal judge halted Utah's attempt to ban VPNs on adult websites, ruling the law imposes impossible technical requirements and violates interstate…</i></sub>
 
-<sub>Edition of Fri 02 Oct 2026 · 30 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Sat 03 Oct 2026 · 18 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
