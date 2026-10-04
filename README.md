@@ -40,14 +40,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[Apple tightens Full Disk Access in macOS as AI agents pose security risk](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>Apple is restricting Full Disk Access on macOS due to security risks from increasingly capable autonomous agents.</i></sub>
-- **[Stratego falls: AI defeats champion in a game that resisted machine intelligence for decades](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>Researchers from CMU, MIT, NYU, and Stanford built Ataraxos, an AI that beat the Stratego world champion 15-1 using just 16 GPUs.</i></sub>
-- **[Federal court blocks Utah VPN law as technically impossible and unconstitutionally overbroad](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>A federal judge halted Utah's attempt to ban VPNs on adult websites, ruling the law imposes impossible technical requirements and violates interstate…</i></sub>
+- **[David Robinson quit OpenAI, warning its culture prioritizes pace over caution](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>An ex-safety lead cited reckless autonomous agent behavior and systematic neglect of careful development practices as reasons to leave.</i></sub>
+- **[OpenAI announces GPT-6.1 Sol, computer-using agents, and cloud Codex at DevDay 2026](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>The company released a cheaper model update, expanded agent APIs with GUI automation, and new tools for business use—signaling consolidation around…</i></sub>
+- **[A federal judge ruled Flock's license plate tracking is unconstitutional mass surveillance](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>An Oklahoma deputy violated a woman's Fourth Amendment rights by searching for her car without a warrant in the Flock database—and courts may now…</i></sub>
 
-<sub>Edition of Sat 03 Oct 2026 · 18 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Sun 04 Oct 2026 · 20 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
