@@ -35,7 +35,7 @@ ABOUT = {
             "the AI layer into them: agentic delivery pipelines, MCP servers and tools where the "
             "model is part of the architecture, not a plugin."),
     "desk": [
-        ("lime", "NOW", "Team lead and shadow architect on an order-finance platform"),
+        ("lime", "NOW", "Tech lead on an order-finance platform"),
         ("cyan", "BUILDING", "MCP tooling, agent pipelines, code-graph intelligence"),
         ("violet", "EXPLORING", "Distributed systems at consumer scale"),
     ],
@@ -90,10 +90,10 @@ PRIVATE = [
 ARCHIVE = [
     ("lime", "2020", "Associate System Engineer", "Ran a mission-critical tax engine through two platform migrations."),
     ("cyan", "2021", "Full Stack Developer", "Built the front end of the pilot that launched an open-source migration program."),
-    ("violet", "2022", "Tech Lead", "Owned architecture and estimates; made a 10k-row search instant."),
-    ("pink", "2023", "Tech Lead", "Set up CI/CD and standards, then shipped the program's first SSO."),
-    ("amber", "2024", "Team Lead", "Cut a 20-minute data compile to seconds; delivered a month early."),
-    ("coral", "2025", "Senior Dev · Shadow Architect", "Designed the execution framework; batch jobs up to 55% faster."),
+    ("violet", "2022", "Full Stack Developer", "Owned architecture and estimates; made a 10k-row search instant."),
+    ("pink", "2023", "Senior Full Stack Developer", "Set up CI/CD and standards, then shipped the program's first SSO."),
+    ("amber", "2024", "Tech Lead", "Cut a 20-minute data compile to seconds; delivered a month early."),
+    ("coral", "2025", "Tech Lead", "Designed the execution framework; batch jobs up to 55% faster."),
 ]
 
 STACK = [
