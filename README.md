@@ -40,14 +40,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[David Robinson quit OpenAI, warning its culture prioritizes pace over caution](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>An ex-safety lead cited reckless autonomous agent behavior and systematic neglect of careful development practices as reasons to leave.</i></sub>
-- **[OpenAI announces GPT-6.1 Sol, computer-using agents, and cloud Codex at DevDay 2026](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>The company released a cheaper model update, expanded agent APIs with GUI automation, and new tools for business use—signaling consolidation around…</i></sub>
-- **[A federal judge ruled Flock's license plate tracking is unconstitutional mass surveillance](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>An Oklahoma deputy violated a woman's Fourth Amendment rights by searching for her car without a warrant in the Flock database—and courts may now…</i></sub>
+- **[Qwen 3.8 Flash runs on RTX 4090 at 100 tokens per second](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>A 125-billion-parameter language model now achieves fast inference on consumer hardware, expanding where powerful AI can run.</i></sub>
+- **[Google leaks data center carbon and energy data in redaction failure](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>A transparency misstep exposed how much water and electricity Google's data centers consume, answering a question the company had avoided for years.</i></sub>
+- **[AI agents broke CI pipelines. The fix isn't faster tests.](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`ENGINEERING`</sub>  
+  <sub><i>Anthropic, Linear, and others report that agent code generation has multiplied CI job volume 5–25x in months, but making pipelines faster won't solve…</i></sub>
 
-<sub>Edition of Sun 04 Oct 2026 · 20 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Mon 05 Oct 2026 · 30 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
