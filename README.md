@@ -40,14 +40,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[Qwen 3.8 Flash runs on RTX 4090 at 100 tokens per second](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>A 125-billion-parameter language model now achieves fast inference on consumer hardware, expanding where powerful AI can run.</i></sub>
-- **[Google leaks data center carbon and energy data in redaction failure](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>A transparency misstep exposed how much water and electricity Google's data centers consume, answering a question the company had avoided for years.</i></sub>
-- **[AI agents broke CI pipelines. The fix isn't faster tests.](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`ENGINEERING`</sub>  
-  <sub><i>Anthropic, Linear, and others report that agent code generation has multiplied CI job volume 5–25x in months, but making pipelines faster won't solve…</i></sub>
+- **[Reflection's Beam: 501B open-weight model reaches frontier-tier reasoning at lower cost](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>Reflection released Beam, a sparse Mixture-of-Experts model trained with high-compute reinforcement learning, matching or beating frontier models on…</i></sub>
+- **[People hate AI but can't stop using it—a paradox reshaping products and enterprise strategy](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>Public sentiment on AI is souring, yet adoption is skyrocketing.</i></sub>
+- **[MCP trust assumptions turn protocol into attack surface for agent-to-agent prompt injection](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`DEV TOOLS`</sub>  
+  <sub><i>Model Context Protocol, now standard for internal agent communication, has a fatal flaw: agents trust each other by design, turning one compromised…</i></sub>
 
-<sub>Edition of Mon 05 Oct 2026 · 30 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Tue 06 Oct 2026 · 30 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
