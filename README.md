@@ -40,14 +40,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[Reflection's Beam: 501B open-weight model reaches frontier-tier reasoning at lower cost](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>Reflection released Beam, a sparse Mixture-of-Experts model trained with high-compute reinforcement learning, matching or beating frontier models on…</i></sub>
-- **[People hate AI but can't stop using it—a paradox reshaping products and enterprise strategy](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>Public sentiment on AI is souring, yet adoption is skyrocketing.</i></sub>
-- **[MCP trust assumptions turn protocol into attack surface for agent-to-agent prompt injection](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`DEV TOOLS`</sub>  
-  <sub><i>Model Context Protocol, now standard for internal agent communication, has a fatal flaw: agents trust each other by design, turning one compromised…</i></sub>
+- **[Mistral Large 4: Open weights, trillion parameters](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>A month after OpenAI's DevDay, Mistral released a 1 trillion parameter model called "Le Chonk," trained on its own 3,800 GPU cluster and available…</i></sub>
+- **[Hackers obtained certificates for Google via registrar attacks](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>Attackers compromised three country-code registries (.gh, .sl, .as) and hijacked DNS records to pass domain validation checks, obtaining TLS…</i></sub>
+- **[EmbeddingGemma 2: Multimodal embeddings, 740M parameters, on-device](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>Google released an open multimodal embedding model with 740 million parameters, extending last year's text-only EmbeddingGemma to unify code, images…</i></sub>
 
-<sub>Edition of Tue 06 Oct 2026 · 30 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Wed 07 Oct 2026 · 25 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
