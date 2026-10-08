@@ -40,14 +40,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[Mistral Large 4: Open weights, trillion parameters](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>A month after OpenAI's DevDay, Mistral released a 1 trillion parameter model called "Le Chonk," trained on its own 3,800 GPU cluster and available…</i></sub>
-- **[Hackers obtained certificates for Google via registrar attacks](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>Attackers compromised three country-code registries (.gh, .sl, .as) and hijacked DNS records to pass domain validation checks, obtaining TLS…</i></sub>
-- **[EmbeddingGemma 2: Multimodal embeddings, 740M parameters, on-device](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>Google released an open multimodal embedding model with 740 million parameters, extending last year's text-only EmbeddingGemma to unify code, images…</i></sub>
+- **[Claude Haiku 5.5 debuts at 75% lower cost than its predecessor](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>Anthropic's smallest model now runs cheap and fast enough to replace older systems, with an adjustable reasoning dial to trade speed for accuracy.</i></sub>
+- **[NVIDIA and Microsoft unveil RTX Spark, positioning local AI agents as a Windows first-class feature](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`INFRA`</sub>  
+  <sub><i>The two companies are embedding AI agent execution directly into Windows as a platform primitive, not a bolted-on application.</i></sub>
+- **[GPT-6 gets interactive visuals built into ChatGPT's responses](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>OpenAI trained GPT-6 to generate diagrams, charts, buttons, and interactive forms inline with text, turning responses into lightweight applications.</i></sub>
 
-<sub>Edition of Wed 07 Oct 2026 · 25 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Thu 08 Oct 2026 · 29 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
