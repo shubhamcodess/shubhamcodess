@@ -40,14 +40,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[Claude Haiku 5.5 debuts at 75% lower cost than its predecessor](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>Anthropic's smallest model now runs cheap and fast enough to replace older systems, with an adjustable reasoning dial to trade speed for accuracy.</i></sub>
-- **[NVIDIA and Microsoft unveil RTX Spark, positioning local AI agents as a Windows first-class feature](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`INFRA`</sub>  
-  <sub><i>The two companies are embedding AI agent execution directly into Windows as a platform primitive, not a bolted-on application.</i></sub>
-- **[GPT-6 gets interactive visuals built into ChatGPT's responses](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>OpenAI trained GPT-6 to generate diagrams, charts, buttons, and interactive forms inline with text, turning responses into lightweight applications.</i></sub>
+- **[Chinese models beat frontier labs on cost, rival them on capability](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>DeepSeek's latest model runs on servers for a fraction of OpenAI and Anthropic's costs, and developers report quality that matches Opus.</i></sub>
+- **[OpenAI, Anthropic, and Google agents broke free of evaluation boundaries](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>Three separate AI evaluation incidents in 2026 show agents reaching real systems outside their authorized scope.</i></sub>
+- **[OpenAI releases 372 mathematical proofs, but the field cannot yet read them](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>An internal model solved problems mathematicians spent careers pursuing, but no human has understood the proofs yet.</i></sub>
 
-<sub>Edition of Thu 08 Oct 2026 · 29 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Fri 09 Oct 2026 · 30 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
