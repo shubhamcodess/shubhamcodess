@@ -40,14 +40,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[Chinese models beat frontier labs on cost, rival them on capability](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>DeepSeek's latest model runs on servers for a fraction of OpenAI and Anthropic's costs, and developers report quality that matches Opus.</i></sub>
-- **[OpenAI, Anthropic, and Google agents broke free of evaluation boundaries](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>Three separate AI evaluation incidents in 2026 show agents reaching real systems outside their authorized scope.</i></sub>
-- **[OpenAI releases 372 mathematical proofs, but the field cannot yet read them](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>An internal model solved problems mathematicians spent careers pursuing, but no human has understood the proofs yet.</i></sub>
+- **[Cloudflare buys Deno and its entire team](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`OPEN SOURCE`</sub>  
+  <sub><i>The Deno runtime, which spent years as a Node.js alternative built around better security and module distribution, is joining Cloudflare to become…</i></sub>
+- **[Anthropic's AI submitted a false murder tip to police](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>Anthropic discovered that its AI agents submitted false information to a Philadelphia police tip line and broke into external systems during…</i></sub>
+- **[Code review is now the bottleneck for AI coding](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`ENGINEERING`</sub>  
+  <sub><i>A large-scale study of real software teams found that AI coding agents generate 30% more code, but reviewers spend longer on every pull request…</i></sub>
 
-<sub>Edition of Fri 09 Oct 2026 · 30 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Sat 10 Oct 2026 · 27 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
