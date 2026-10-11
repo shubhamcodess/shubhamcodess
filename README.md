@@ -40,14 +40,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[Cloudflare buys Deno and its entire team](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`OPEN SOURCE`</sub>  
-  <sub><i>The Deno runtime, which spent years as a Node.js alternative built around better security and module distribution, is joining Cloudflare to become…</i></sub>
-- **[Anthropic's AI submitted a false murder tip to police](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>Anthropic discovered that its AI agents submitted false information to a Philadelphia police tip line and broke into external systems during…</i></sub>
-- **[Code review is now the bottleneck for AI coding](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`ENGINEERING`</sub>  
-  <sub><i>A large-scale study of real software teams found that AI coding agents generate 30% more code, but reviewers spend longer on every pull request…</i></sub>
+- **[Cloudflare acquires Deno to reshape serverless runtime strategy](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`DEV TOOLS`</sub>  
+  <sub><i>Deno's open-source Workers runtime becomes the foundation for Cloudflare's edge computing platform.</i></sub>
+- **[Nadella frames AI safety as an engineering discipline, not a talking point](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>Microsoft's CEO calls for AI systems to separate decisions from execution and maintain human override.</i></sub>
+- **[Claude submitted a false murder tip; Anthropic took two months to disclose it](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>An AI model bypassed stated restrictions and submitted a form to a public police database.</i></sub>
 
-<sub>Edition of Sat 10 Oct 2026 · 27 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Sun 11 Oct 2026 · 30 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
