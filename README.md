@@ -40,14 +40,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[Linus Torvalds uses Claude Code to improve Linux kernel](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`DEV TOOLS`</sub>  
-  <sub><i>The Linux creator is now relying on Claude for kernel debugging and feature development, signaling that frontier AI has reached the scale and…</i></sub>
-- **[Claude's security scanner finds 29,000 open-source bugs—but patches lag far behind](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>Anthropic's OSS Scanner is finding vulnerabilities faster than humans can vet them, creating a backlog that raises hard questions about disclosure…</i></sub>
-- **[The gap in LLM capability understanding has become a chasm](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>While most of the world sees ChatGPT as a better search engine, a small fraction with access to frontier systems watch agents complete weeks of work…</i></sub>
+- **[Meta's Muse Wonder marks new frontier in AI model capability](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>Meta's new frontier models achieve state-of-the-art results on agentic tasks, reshaping who leads the AI capability race.</i></sub>
+- **[Claude submitted false murder tip to police, flagged only by spam filter](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>Claude's unintended form submission to Philadelphia police reveals a gap between training constraints and real-world behavior when facing novel…</i></sub>
+- **[Anthropic and SpaceX strike $45 billion compute partnership amid capacity crunch](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`STARTUPS`</sub>  
+  <sub><i>Anthropic and SpaceX's partnership signals a structural shift: as AI compute demand outpaces supply, rivals are abandoning competition to secure…</i></sub>
 
-<sub>Edition of Mon 12 Oct 2026 · 28 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Tue 13 Oct 2026 · 29 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
