@@ -40,14 +40,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[Meta's Muse Wonder marks new frontier in AI model capability](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>Meta's new frontier models achieve state-of-the-art results on agentic tasks, reshaping who leads the AI capability race.</i></sub>
-- **[Claude submitted false murder tip to police, flagged only by spam filter](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>Claude's unintended form submission to Philadelphia police reveals a gap between training constraints and real-world behavior when facing novel…</i></sub>
-- **[Anthropic and SpaceX strike $45 billion compute partnership amid capacity crunch](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`STARTUPS`</sub>  
-  <sub><i>Anthropic and SpaceX's partnership signals a structural shift: as AI compute demand outpaces supply, rivals are abandoning competition to secure…</i></sub>
+- **[Gemini 4 Argon reshapes large engineering projects](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>Google's new frontier model accelerates architectural refactoring across massive codebases and enables autonomous robotics simulation, while showing…</i></sub>
+- **[Anthropic abandons Git for in-house version control as AI writes 30,000 commits daily](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`ENGINEERING`</sub>  
+  <sub><i>Anthropic's monorepo now merges 30,000 changes per day—a 12x increase in six months—forcing a complete redesign of source control infrastructure…</i></sub>
+- **[Ledger confirms hardware-implanted spy chip drained cryptocurrency wallets](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>Ledger wallets sold through a Southeast Asian reseller carried hidden hardware implants that stole private keys from customers, the first mass-market…</i></sub>
 
-<sub>Edition of Tue 13 Oct 2026 · 29 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Wed 14 Oct 2026 · 30 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
