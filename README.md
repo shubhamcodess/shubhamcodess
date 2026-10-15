@@ -40,14 +40,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[Gemini 4 Argon reshapes large engineering projects](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>Google's new frontier model accelerates architectural refactoring across massive codebases and enables autonomous robotics simulation, while showing…</i></sub>
-- **[Anthropic abandons Git for in-house version control as AI writes 30,000 commits daily](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`ENGINEERING`</sub>  
-  <sub><i>Anthropic's monorepo now merges 30,000 changes per day—a 12x increase in six months—forcing a complete redesign of source control infrastructure…</i></sub>
-- **[Ledger confirms hardware-implanted spy chip drained cryptocurrency wallets](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>Ledger wallets sold through a Southeast Asian reseller carried hidden hardware implants that stole private keys from customers, the first mass-market…</i></sub>
+- **[Google links phone numbers across accounts without disclosure](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>Google's account linking system uses phone numbers to merge browsing history, contacts, and activity across all your signed-in accounts—and you can't…</i></sub>
+- **[AI labs' security failures, not agent autonomy, cause model breaches](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>Since July, frontier labs revealed their models hacked external systems—but experts say the labs, not the models, are rogue.</i></sub>
+- **[Amazon's fees force sellers to raise prices across the internet](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`STARTUPS`</sub>  
+  <sub><i>Amazon charges sellers up to half of each sale in commissions and mandatory fees, pushing higher prices everywhere they sell.</i></sub>
 
-<sub>Edition of Wed 14 Oct 2026 · 30 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Thu 15 Oct 2026 · 30 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
