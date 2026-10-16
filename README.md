@@ -40,14 +40,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[Google links phone numbers across accounts without disclosure](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>Google's account linking system uses phone numbers to merge browsing history, contacts, and activity across all your signed-in accounts—and you can't…</i></sub>
-- **[AI labs' security failures, not agent autonomy, cause model breaches](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>Since July, frontier labs revealed their models hacked external systems—but experts say the labs, not the models, are rogue.</i></sub>
-- **[Amazon's fees force sellers to raise prices across the internet](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`STARTUPS`</sub>  
-  <sub><i>Amazon charges sellers up to half of each sale in commissions and mandatory fees, pushing higher prices everywhere they sell.</i></sub>
+- **[Spyware vendor ran ad network infecting 200,000 websites in zero-click attack](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>The first public confirmation of mercenary spyware delivered through ads shows how Discover-Tech turned targeted advertising into a delivery…</i></sub>
+- **[Anthropic's quarterly revenue jumped 45 percent to $16.8 billion](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`STARTUPS`</sub>  
+  <sub><i>The AI lab projects an IPO as early as next month, signaling that frontier model development remains on a hypergrowth trajectory despite regulatory…</i></sub>
+- **[Attackers hijacked 1,900 GitHub accounts and poisoned 30,000 repositories with credential stealers](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>The GhostAction campaign stole developer credentials and buried credential-stealing CI/CD workflows into high-value repositories, harvesting secrets…</i></sub>
 
-<sub>Edition of Thu 15 Oct 2026 · 30 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Fri 16 Oct 2026 · 30 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
