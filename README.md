@@ -40,14 +40,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[Claude settles the ECDSA mystery with timestamps](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>The NSA's cryptographic seed values had no hidden meaning — just poor documentation and time-based hashing.</i></sub>
-- **[Tesla Roadster achieves flight in public demonstration](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`STARTUPS`</sub>  
-  <sub><i>Elon Musk's flying car is no longer concept art: this week, Tesla proved it works.</i></sub>
-- **[Meta's TOS change gives it free AI training rights to every business site](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`STARTUPS`</sub>  
-  <sub><i>Effective October 30, Meta requires business accounts to let the company crawl their linked websites for AI training with no opt-out.</i></sub>
+- **[DeepSeek releases Flash variant, hitting 729-point engagement on Hacker News](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>A new lightweight reasoning model from the Chinese lab is getting serious traction among developers building with local and open-source AI.</i></sub>
+- **[Amazon acquires DuckDB, betting on agentic workloads for analytical databases](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`INFRA`</sub>  
+  <sub><i>DuckDB's creators join AWS, with the database staying open-source and the Foundation keeping technical control.</i></sub>
+- **[Cloudflare acquires Deno; Ryan Dahl says Node.js choice is now wrong](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`DEV TOOLS`</sub>  
+  <sub><i>The JavaScript runtime creator joins Cloudflare with a clear take: Node.js is no longer the right choice for building servers.</i></sub>
 
-<sub>Edition of Sat 17 Oct 2026 · 30 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Sun 18 Oct 2026 · 29 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
