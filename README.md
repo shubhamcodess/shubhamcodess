@@ -40,14 +40,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[DeepSeek releases Flash variant, hitting 729-point engagement on Hacker News](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>A new lightweight reasoning model from the Chinese lab is getting serious traction among developers building with local and open-source AI.</i></sub>
-- **[Amazon acquires DuckDB, betting on agentic workloads for analytical databases](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`INFRA`</sub>  
-  <sub><i>DuckDB's creators join AWS, with the database staying open-source and the Foundation keeping technical control.</i></sub>
-- **[Cloudflare acquires Deno; Ryan Dahl says Node.js choice is now wrong](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`DEV TOOLS`</sub>  
-  <sub><i>The JavaScript runtime creator joins Cloudflare with a clear take: Node.js is no longer the right choice for building servers.</i></sub>
+- **[Hybrid Reasoning Agents think in latent space, act through text](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>LLM agents now separate internal reasoning from external action, letting models think efficiently in compressed space while keeping tools and…</i></sub>
+- **[VirtIO-FS synchronous queues show massive performance improvements for VM file access](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`INFRA`</sub>  
+  <sub><i>Experimental synchronous queue support for VirtIO-FS (shared file-system between VMs and hosts) cut build times from 7:43 to 5:34, a 27% speedup, and…</i></sub>
+- **[AI is lowering the barrier to building software, shifting how engineers think about coding](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`ENGINEERING`</sub>  
+  <sub><i>AI coding tools remove the translation layer between knowing what you want to build and actually building it, letting domain experts ship software…</i></sub>
 
-<sub>Edition of Sun 18 Oct 2026 · 29 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Mon 19 Oct 2026 · 9 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
