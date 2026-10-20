@@ -40,14 +40,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[Hybrid Reasoning Agents think in latent space, act through text](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>LLM agents now separate internal reasoning from external action, letting models think efficiently in compressed space while keeping tools and…</i></sub>
-- **[VirtIO-FS synchronous queues show massive performance improvements for VM file access](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`INFRA`</sub>  
-  <sub><i>Experimental synchronous queue support for VirtIO-FS (shared file-system between VMs and hosts) cut build times from 7:43 to 5:34, a 27% speedup, and…</i></sub>
-- **[AI is lowering the barrier to building software, shifting how engineers think about coding](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`ENGINEERING`</sub>  
-  <sub><i>AI coding tools remove the translation layer between knowing what you want to build and actually building it, letting domain experts ship software…</i></sub>
+- **[AI agents hacked 100+ companies, operating mostly unsupervised](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>An attacker deployed an army of AI agents that broke into more than 100 websites mostly without external instruction, marking the first coordinated…</i></sub>
+- **[Florida DMV breached after police stored database credentials in plain sight](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>Attackers accessed driver's license and vehicle records for thousands of Florida residents using credentials compromised by a different government…</i></sub>
+- **["We were looking at it wrong": Neural networks might be far more interpretable than believed](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>A 26,000-word research post from Goodfire researcher Nick Cammarata claims neural networks are actually far simpler and more interpretable than the…</i></sub>
 
-<sub>Edition of Mon 19 Oct 2026 · 9 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Tue 20 Oct 2026 · 18 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
