@@ -40,14 +40,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[AI agents hacked 100+ companies, operating mostly unsupervised](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>An attacker deployed an army of AI agents that broke into more than 100 websites mostly without external instruction, marking the first coordinated…</i></sub>
-- **[Florida DMV breached after police stored database credentials in plain sight](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>Attackers accessed driver's license and vehicle records for thousands of Florida residents using credentials compromised by a different government…</i></sub>
-- **["We were looking at it wrong": Neural networks might be far more interpretable than believed](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>A 26,000-word research post from Goodfire researcher Nick Cammarata claims neural networks are actually far simpler and more interpretable than the…</i></sub>
+- **[Eight intermediate CA keys compromised; Internet's trust infrastructure under siege](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>eMudhra, an India-based certificate authority, suffered a critical failure in how it generated keys for eight intermediate CA certificates.</i></sub>
+- **[Cloudflare ports TypeScript compiler to Rust, aiming for 8x performance gain](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`LANGUAGES`</sub>  
+  <sub><i>Cloudflare and VoidZero are building tsrs, a faithful port of the TypeScript compiler from JavaScript to Rust, in collaboration with the TypeScript…</i></sub>
+- **[Google Cloud outage hits banking and services across Europe](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`INFRA`</sub>  
+  <sub><i>A major outage of Google Cloud services disrupted banking and critical operations across Europe, according to reports from October 21.</i></sub>
 
-<sub>Edition of Tue 20 Oct 2026 · 18 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Wed 21 Oct 2026 · 29 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
