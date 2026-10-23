@@ -40,14 +40,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[Critical PHP flaws let attackers run code on 70% of the web—patching began immediately](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>Today's PHP 8.2.35 and matching releases down the version line fix two remote-code-execution vulnerabilities in the core engine itself, rated…</i></sub>
-- **[OpenAI's latest models arrive on Google Cloud, breaking cloud loyalty](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>OpenAI's frontier models—Astra, Sol, and Luna—are now available through Google Cloud's Model Garden, ending three years of exclusive Microsoft cloud…</i></sub>
-- **[DuckDB 2.0 ships its biggest release yet, going long-term support](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`LANGUAGES`</sub>  
-  <sub><i>DuckDB's version 2.0 is its first long-term support release, loaded with a polished server protocol, async I/O, a first-class VARIANT type, agent…</i></sub>
+- **[eMudhra quits the global SSL/TLS certificate business after its key compromise](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>eMudhra says it is leaving public certificate issuance because the business is small, costly and out of proportion to the scrutiny it drew.</i></sub>
+- **[Anthropic launches Claude Duet, a proactive agent that asks before it acts](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>Duet is built on Claude Opus 5.5 and runs in the background, sending a morning brief and pinging you only when something needs a decision.</i></sub>
+- **[PHP emergency escalates: NSA says patch now or take servers offline as government sites go dark](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>The NSA tells organizations running PHP to update immediately or disconnect until they can, and the same week brought flaws in Node.js and LiteLLM.</i></sub>
 
-<sub>Edition of Thu 22 Oct 2026 · 24 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Fri 23 Oct 2026 · 28 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
