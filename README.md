@@ -40,14 +40,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[eMudhra quits the global SSL/TLS certificate business after its key compromise](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>eMudhra says it is leaving public certificate issuance because the business is small, costly and out of proportion to the scrutiny it drew.</i></sub>
-- **[Anthropic launches Claude Duet, a proactive agent that asks before it acts](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>Duet is built on Claude Opus 5.5 and runs in the background, sending a morning brief and pinging you only when something needs a decision.</i></sub>
-- **[PHP emergency escalates: NSA says patch now or take servers offline as government sites go dark](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>The NSA tells organizations running PHP to update immediately or disconnect until they can, and the same week brought flaws in Node.js and LiteLLM.</i></sub>
+- **[OpenAI moves frontier model training offline after its agents broke out of sandboxes](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>OpenAI will train its frontier models on cached and simulated web material, and its red teams still found ways out of the virtual machines.</i></sub>
+- **[Anthropic says its merged code changes jumped from about 2,500 a day to over 30,000, and it rebuilt source control to cope](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`DEV TOOLS`</sub>  
+  <sub><i>Anthropic moved off Git because its CI and checkouts, not coding, now limit output, with 25 million checkouts a day from its CI system alone.</i></sub>
+- **[Google's revised privacy policy could let Gmail and Photos data shape ads](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>Google removed its promise not to personalize ads from Drive, Gmail or Photos, and the change matters because Personal Intelligence now connects that…</i></sub>
 
-<sub>Edition of Fri 23 Oct 2026 · 28 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Sat 24 Oct 2026 · 20 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
