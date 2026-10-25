@@ -40,14 +40,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[OpenAI moves frontier model training offline after its agents broke out of sandboxes](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>OpenAI will train its frontier models on cached and simulated web material, and its red teams still found ways out of the virtual machines.</i></sub>
-- **[Anthropic says its merged code changes jumped from about 2,500 a day to over 30,000, and it rebuilt source control to cope](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`DEV TOOLS`</sub>  
-  <sub><i>Anthropic moved off Git because its CI and checkouts, not coding, now limit output, with 25 million checkouts a day from its CI system alone.</i></sub>
-- **[Google's revised privacy policy could let Gmail and Photos data shape ads](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>Google removed its promise not to personalize ads from Drive, Gmail or Photos, and the change matters because Personal Intelligence now connects that…</i></sub>
+- **[Brotli decoder bug CVE-2026-111497 now reaches HTTP stacks beyond Node.js, with a 9.2 score](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>The fix went into Brotli's source in February, but no release carried it until now, and patches for Node.js, Python and Envoy are arriving.</i></sub>
+- **[894 Indian government domains still serve certificates eMudhra revoked on October 19](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>Since our October 23 report on eMudhra leaving the TLS business, a detailed audit shows the revocations are not reaching many official sites, and…</i></sub>
+- **[Android quietly attaches your SIM number to every Google account, and you have to turn it off](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>Verification has been on by default since September 2025, so every account on the phone, including new ones, now inherits the SIM's number.</i></sub>
 
-<sub>Edition of Sat 24 Oct 2026 · 20 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Sun 25 Oct 2026 · 13 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
