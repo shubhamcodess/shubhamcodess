@@ -40,14 +40,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[Brotli decoder bug CVE-2026-111497 now reaches HTTP stacks beyond Node.js, with a 9.2 score](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>The fix went into Brotli's source in February, but no release carried it until now, and patches for Node.js, Python and Envoy are arriving.</i></sub>
-- **[894 Indian government domains still serve certificates eMudhra revoked on October 19](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>Since our October 23 report on eMudhra leaving the TLS business, a detailed audit shows the revocations are not reaching many official sites, and…</i></sub>
-- **[Android quietly attaches your SIM number to every Google account, and you have to turn it off](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>Verification has been on by default since September 2025, so every account on the phone, including new ones, now inherits the SIM's number.</i></sub>
+- **[PingCAP breach exposes customer records and source code, and the extortion group claims 10.6 TB](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>PingCAP confirmed the theft of source code and customer-related data, but its own investigators found no evidence that data stored in TiDB was…</i></sub>
+- **[PHP patches two unauthenticated RCE bugs that attackers were already using, four days before the fixes shipped](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>Amazon logged an attack attempt on October 17, four days ahead of the fixed builds that shipped October 21.</i></sub>
+- **[Wyden says 350 federal web addresses, including the FBI tip line, expose visitors' site names](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>Senator Ron Wyden asked CISA and OMB to require Encrypted Client Hello on federal sites and to make it a condition of federal cloud and network…</i></sub>
 
-<sub>Edition of Sun 25 Oct 2026 · 13 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Mon 26 Oct 2026 · 12 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
