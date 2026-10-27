@@ -40,14 +40,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[PingCAP breach exposes customer records and source code, and the extortion group claims 10.6 TB](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>PingCAP confirmed the theft of source code and customer-related data, but its own investigators found no evidence that data stored in TiDB was…</i></sub>
-- **[PHP patches two unauthenticated RCE bugs that attackers were already using, four days before the fixes shipped](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>Amazon logged an attack attempt on October 17, four days ahead of the fixed builds that shipped October 21.</i></sub>
-- **[Wyden says 350 federal web addresses, including the FBI tip line, expose visitors' site names](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>Senator Ron Wyden asked CISA and OMB to require Encrypted Client Hello on federal sites and to make it a condition of federal cloud and network…</i></sub>
+- **[Anthropic's S-1 shows over half of its $100,000-a-year customers now use both the API and a Claude app](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`STARTUPS`</sub>  
+  <sub><i>The filing points to a cross-selling pattern that makes Anthropic harder to leave, and it puts numbers on how much more those customers spend.</i></sub>
+- **[PHP2Shell flaws are being exploited in the wild days after patches shipped](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>Honeypot logs show working remote code execution, so the two PHP2Shell flaws now have a live attack behind them rather than a proof of concept.</i></sub>
+- **[Microsoft offers buyouts to about a quarter of its workforce, but expects fewer than 3,000 to accept](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`STARTUPS`</sub>  
+  <sub><i>The offer goes to roughly 60,000 employees with a December deadline, and it is designed as a way to reshape the company without layoffs.</i></sub>
 
-<sub>Edition of Mon 26 Oct 2026 · 12 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Tue 27 Oct 2026 · 30 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
