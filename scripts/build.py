@@ -89,11 +89,7 @@ PRIVATE = [
 
 ARCHIVE = [
     ("lime", "2020", "Associate System Engineer", "Ran a mission-critical tax engine through two platform migrations."),
-    ("cyan", "2021", "Full Stack Developer", "Built the front end of the pilot that launched an open-source migration program."),
-    ("violet", "2022", "Full Stack Developer", "Owned architecture and estimates; made a 10k-row search instant."),
-    ("pink", "2023", "Senior Full Stack Developer", "Set up CI/CD and standards, then shipped the program's first SSO."),
-    ("amber", "2024", "Tech Lead", "Cut a 20-minute data compile to seconds; delivered a month early."),
-    ("coral", "2025", "Tech Lead", "Designed the execution framework; batch jobs up to 55% faster."),
+    ("coral", "NOW", "Sr. Cloud Full Stack Developer", "Lead delivery on an order-finance platform; batch jobs up to 55% faster."),
 ]
 
 STACK = [
@@ -123,7 +119,7 @@ CULTURE = {
 }
 
 SECTIONS = {
-    "about": ("01 /", "The Lead", "WHO'S WRITING"),
+    "about": ("01 /", "At Work", "DAY TO DAY"),
     "work": ("02 /", "Front Page", "SHIPPED IN PUBLIC"),
     "archive": ("03 /", "The Archive", "IBM CONSULTING · 2020 → NOW"),
     "stack": ("04 /", "The Stack", "TOOLS OF THE TRADE"),
@@ -137,7 +133,7 @@ CONNECT = [
     ("linkedin", "cyan", "LINKEDIN"),
     ("email", "lime", "EMAIL"),
     ("newsletter", "pink", "EVERYTHINGTECH"),
-    ("blog", "faint", "BLOG · SOON"),
+    ("substack", "coral", "SUBSTACK"),
 ]
 
 
@@ -389,7 +385,7 @@ def private_desk(theme: str) -> None:
 
 def archive(theme: str) -> None:
     n = len(ARCHIVE)
-    colw = (W - 52) / n
+    colw = (W - 52) / (n + 1)  # one extra column for "What's next?"
     roles = [wrap(r, "d7", 15, colw - 14) for _, _, r, _ in ARCHIVE]
     notes = [wrap(t, "si", 13, colw - 14) for *_, t in ARCHIVE]
     rh = max(len(r) for r in roles) * 19
@@ -400,17 +396,20 @@ def archive(theme: str) -> None:
     s.card(0, 0, W - 2, H)
     s.kicker(26, 36, "IBM CONSULTING", "OCT 2020 — PRESENT", "cyan", "ENTERPRISE PLATFORMS · GLOBAL RETAIL")
     track = 96
-    s.line(26, track, W - 28, track, "strong", sw=2)
+    nx = 26 + n * colw  # the open-ended last stop
+    s.line(26, track, nx, track, "strong", sw=2)
+    s.line(nx, track, W - 28, track, "strong", sw=2, dash="4 5")
+    s.css.append("@keyframes ghost{0%,100%{opacity:.25}50%{opacity:1}}.ghost{animation:ghost 3.6s ease-in-out infinite}")
+    s.add('<g class="ghost">')
+    s.text(nx, track - 16, "· · ·", "m7", 13, "faint", tracking=0.06)
+    s.rect(nx, track - 5, 10, 10, fill="none", stroke="faint", sw=1.5, rx=0)
+    s.text(nx, 132, "What's next?", "d7", 15, "muted", tracking=-0.01)
+    s.add("</g>")
     for i, ((color, year, _, _), role, note) in enumerate(zip(ARCHIVE, roles, notes)):
         x = 26 + i * colw
         s.text(x, track - 16, year, "m7", 13, color, tracking=0.06)
         if i == n - 1:
             s.add(f'<circle class="pulse" cx="{x + 5}" cy="{track}" r="6" fill="{s.c(color)}"/>')
-            # "NOW" badge pinned to the card's right edge, clear of the year
-            bw = measure("NOW", "m7", 10, 0.12) + 14
-            bx = W - 28 - bw
-            s.rect(bx, track - 29, bw, 18, fill="none", stroke="pink", sw=1.5, rx=2)
-            s.text(bx + bw / 2, track - 16.5, "NOW", "m7", 10, "pink", anchor="middle", tracking=0.12, cls="blink")
         s.rect(x, track - 5, 10, 10, fill=color, rx=0)
         s.lines(x, 132, role, 19, style="d7", size=15, fill="ink", tracking=-0.01)
         s.lines(x, 132 + rh + 8, note, 18, style="si", size=13, fill="ink2")
@@ -504,16 +503,20 @@ def culture(theme: str) -> None:
 
 
 ICONS = {
-    "linkedin": lambda s, x, y, c: s.add(
-        f'<rect x="{x}" y="{y}" width="18" height="18" rx="2" fill="{c}"/>'
-        f'<rect x="{x + 3.5}" y="{y + 7.5}" width="2.6" height="7.5" fill="{s.c("bg")}"/>'
-        f'<circle cx="{x + 4.8}" cy="{y + 4.6}" r="1.6" fill="{s.c("bg")}"/>'
-        f'<path d="M{x + 8} {y + 7.5}h2.5v1.2c.5-.9 1.5-1.4 2.7-1.4 2 0 2.9 1.2 2.9 3.4V15h-2.6v-3.8c0-1-.4-1.6-1.3-1.6'
-        f'-.9 0-1.6.6-1.6 1.7V15H{x + 8}z" fill="{s.c("bg")}"/>'),
+    "linkedin": lambda s, x, y, c: s.add(  # Simple Icons LinkedIn glyph (24-unit box) scaled to 18px
+        f'<path transform="translate({x} {y}) scale(.75)" fill="{c}" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037'
+        '-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455'
+        'v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 '
+        '2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24'
+        'h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>'),
     "email": lambda s, x, y, c: s.add(
         f'<rect x="{x}" y="{y + 2}" width="18" height="14" rx="1.5" fill="none" stroke="{c}" stroke-width="2"/>'
         f'<path d="M{x + 1} {y + 3.5}l8 6.5 8-6.5" fill="none" stroke="{c}" stroke-width="2"/>'),
     "newsletter": lambda s, x, y, c: chip(s, x, y, 2.25),
+    "substack": lambda s, x, y, c: s.add(  # Substack mark: two bars over a notched ribbon
+        f'<rect x="{x + 1}" y="{y}" width="16" height="2.6" fill="{c}"/>'
+        f'<rect x="{x + 1}" y="{y + 4.4}" width="16" height="2.6" fill="{c}"/>'
+        f'<path d="M{x + 1} {y + 8.8}H{x + 17}V{y + 18}L{x + 9} {y + 13.6}L{x + 1} {y + 18}Z" fill="{c}"/>'),
     "blog": lambda s, x, y, c: s.add(
         f'<path d="M{x + 2} {y + 16}l2-6 9-9 4 4-9 9z" fill="none" stroke="{c}" stroke-width="2" stroke-linejoin="round"/>'
         f'<path d="M{x + 11} {y + 3}l4 4" stroke="{c}" stroke-width="2"/>'),
@@ -531,9 +534,9 @@ def connect(theme: str) -> None:
         s.rect(0.5, 0.5, bw - 2, bh, fill="bg", stroke="strong" if not soon else "faint", sw=1.2, rx=3,
                extra='stroke-dasharray="4 3"' if soon else "")
         ICONS[key](s, 16, bh / 2 - 8.5, s.c(color))
-        s.text(46, bh / 2 + 5, label, "m7", 12.5, "ink" if not soon else "muted", tracking=0.08)
+        s.text(46, bh / 2 + 5, label, "m7", 13, "ink" if not soon else "muted", tracking=0.08)
         if not soon:
-            s.text(bw - 18, bh / 2 + 5, "↗", "m7", 13, color, anchor="end")
+            s.text(bw - 12, bh / 2 + 5, "↗", "m7", 13, color, anchor="end")
         s.save(f"btn-{key}")
 
 

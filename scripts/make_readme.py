@@ -42,23 +42,27 @@ BUTTONS = [
     ("linkedin", LI, "LinkedIn"),
     ("email", "mailto:prakashshubham36@gmail.com", "Email"),
     ("newsletter", SITE, "EverythingTech"),
-    ("blog", None, "Blog, coming soon"),
+    ("substack", "https://theshubhamprakash.substack.com/", "Substack"),
 ]
 
 
+LINKS = {"mcp-token-optimizer": "https://shubhamcodess.github.io/mcp-token-optimizer/"}  # default: the repo
+
+
 def pair(x, y):
-    return block(*(a(f"{GH}/{slug}", pic(f"card-{slug}", alt, "49%")) for slug, alt in (x, y)))
+    return block(*(a(LINKS.get(slug, f"{GH}/{slug}"), pic(f"card-{slug}", alt, "49%")) for slug, alt in (x, y)))
 
 
 README = f"""<div align="center">
 
 {block(pic("header", "Shubham Prakash. Building scalable systems with AI integrations at the core. Senior Full Stack Engineer, cloud native, agentic AI."))}
 
-{block(*(a(h, pic(f"btn-{k}", alt, "190")) for k, h, alt in BUTTONS))}
+{block(*(a(h, pic(f"btn-{k}", alt, "148")) for k, h, alt in BUTTONS[:2]))}
+{block(*(a(h, pic(f"btn-{k}", alt, "148")) for k, h, alt in BUTTONS[2:]))}
 
 </div>
 
-{section("about", "The Lead")}
+{section("about", "At Work")}
 
 {block(a(LI, pic("about", "Six years shipping systems people depend on. Now building them AI-first. Senior Full Stack Engineer at IBM Consulting: I lead teams, architect Spring Boot backends and ship Angular and React front ends, and build the AI layer into them.")))}
 

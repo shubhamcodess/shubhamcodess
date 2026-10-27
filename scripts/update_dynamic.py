@@ -19,6 +19,9 @@ USER = "shubhamcodess"
 SITE = "https://shubhamcodess.github.io/everything-tech-newsletter/"
 README = Path(__file__).resolve().parent.parent / "README.md"
 W = 840
+# Stats card style: "public" (repos + languages only) or "full" (adds contribution
+# counts, which include private work). Swap here; the next refresh redraws it.
+STATS = "public"
 LANG_COLORS = ["lime", "cyan", "violet", "pink", "amber", "coral"]
 
 
@@ -138,6 +141,34 @@ def stats_card(theme: str, c: dict, r: dict) -> None:
     s.save("stats")
 
 
+def stats_card_public(theme: str, r: dict) -> None:
+    """Repos + language mix only: nothing derived from private contributions."""
+    H = 150
+    top = r["langs"].most_common(6)
+    total = sum(v for _, v in top) or 1
+    s = SVG(W + 10, H + 10, theme, f"{r['repos']} public repos. Languages: "
+            + ", ".join(f"{l} {100 * v / total:.0f}%" for l, v in top) + ".")
+    s.card(0, 0, W - 2, H)
+    s.kicker(26, 36, "LIVE", "GITHUB", "lime", f"UPDATED {dt.date.today():%d %b %Y}".upper())
+    s.text(26, 100, str(r["repos"]), "d8", 42, "cyan", tracking=-0.03)
+    s.text(26, 124, "PUBLIC REPOS", "m7", 11, "ink", tracking=0.08)
+
+    x0, x1 = 210, W - 28
+    s.line(x0 - 24, 56, x0 - 24, H - 22, "line", dash="3 4")
+    s.text(x0, 66, "LANGUAGES · BY BYTES", "m7", 11, "faint", tracking=0.08)
+    bar_w, x = x1 - x0, x0
+    for i, (lang, v) in enumerate(top):
+        w = bar_w * v / total
+        s.rect(x, 78, max(w - 2, 1), 12, fill=LANG_COLORS[i], rx=0)
+        x += w
+    for i, (lang, v) in enumerate(top):
+        cx, cy = x0 + (i % 3) * (bar_w / 3), 114 + (i // 3) * 22
+        s.rect(cx, cy - 8.5, 8, 8, fill=LANG_COLORS[i], rx=0)
+        s.text(cx + 14, cy, lang, "m4", 12, "ink", tracking=0.02)
+        s.text(cx + 14 + measure(lang, "m4", 12, 0.02) + 8, cy, f"{100 * v / total:.0f}%", "m4", 12, "muted")
+    s.save("stats")
+
+
 if __name__ == "__main__":
     text = README.read_text(encoding="utf-8")
     try:
@@ -147,10 +178,11 @@ if __name__ == "__main__":
     README.write_text(text, encoding="utf-8")
 
     try:
-        c, r = contributions(), repos()
+        r = repos()
+        c = contributions() if STATS == "full" else None
     except Exception as e:  # keep the last card rather than fail the run
         print("stats skipped:", e)
     else:
         for theme in ("dark", "light"):
-            stats_card(theme, c, r)
-        print("refreshed", c, r["repos"], dict(r["langs"].most_common(6)))
+            stats_card(theme, c, r) if STATS == "full" else stats_card_public(theme, r)
+        print("refreshed", STATS, r["repos"], dict(r["langs"].most_common(6)))
