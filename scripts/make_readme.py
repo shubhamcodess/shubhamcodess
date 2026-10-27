@@ -50,19 +50,19 @@ LINKS = {"mcp-token-optimizer": "https://shubhamcodess.github.io/mcp-token-optim
 
 
 def pair(x, y):
-    return block(*(a(LINKS.get(slug, f"{GH}/{slug}"), pic(f"card-{slug}", alt, "49%")) for slug, alt in (x, y)))
+    # 48% and no whitespace between the two: on narrow phones a space plus 2x49% overflows and stacks them
+    return "<p>" + "".join(a(LINKS.get(slug, f"{GH}/{slug}"), pic(f"card-{slug}", alt, "48%")) for slug, alt in (x, y)) + "</p>"
 
 
 README = f"""<div align="center">
 
 {block(pic("header", "Shubham Prakash. Building scalable systems with AI integrations at the core. Senior Full Stack Engineer, cloud native, agentic AI."))}
 
-{block(*(a(h, pic(f"btn-{k}", alt, "148")) for k, h, alt in BUTTONS[:2]))}
-{block(*(a(h, pic(f"btn-{k}", alt, "148")) for k, h, alt in BUTTONS[2:]))}
+{block(*(a(h, pic(f"btn-{k}", alt, "148")) for k, h, alt in BUTTONS))}
 
 </div>
 
-{section("about", "At Work")}
+{section("about", "The Day Job")}
 
 {block(a(LI, pic("about", "Six years shipping systems people depend on. Now building them AI-first. Senior Full Stack Engineer at IBM Consulting: I lead teams, architect Spring Boot backends and ship Angular and React front ends, and build the AI layer into them.")))}
 

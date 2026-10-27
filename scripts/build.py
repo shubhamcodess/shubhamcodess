@@ -119,7 +119,7 @@ CULTURE = {
 }
 
 SECTIONS = {
-    "about": ("01 /", "At Work", "DAY TO DAY"),
+    "about": ("01 /", "The Day Job", "WHAT I DO AT WORK"),
     "work": ("02 /", "Front Page", "SHIPPED IN PUBLIC"),
     "archive": ("03 /", "The Archive", "IBM CONSULTING · 2020 → NOW"),
     "stack": ("04 /", "The Stack", "TOOLS OF THE TRADE"),

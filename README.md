@@ -3,13 +3,13 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/header-dark.svg"><img alt="Shubham Prakash. Building scalable systems with AI integrations at the core. Senior Full Stack Engineer, cloud native, agentic AI." src="assets/img/header-light.svg" width="100%"></picture></p>
 
 <p><a href="https://www.linkedin.com/in/shubham-prakash-dev/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/btn-linkedin-dark.svg"><img alt="LinkedIn" src="assets/img/btn-linkedin-light.svg" width="148"></picture></a>
-<a href="mailto:prakashshubham36@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/btn-email-dark.svg"><img alt="Email" src="assets/img/btn-email-light.svg" width="148"></picture></a></p>
-<p><a href="https://shubhamcodess.github.io/everything-tech-newsletter/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/btn-newsletter-dark.svg"><img alt="EverythingTech" src="assets/img/btn-newsletter-light.svg" width="148"></picture></a>
+<a href="mailto:prakashshubham36@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/btn-email-dark.svg"><img alt="Email" src="assets/img/btn-email-light.svg" width="148"></picture></a>
+<a href="https://shubhamcodess.github.io/everything-tech-newsletter/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/btn-newsletter-dark.svg"><img alt="EverythingTech" src="assets/img/btn-newsletter-light.svg" width="148"></picture></a>
 <a href="https://theshubhamprakash.substack.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/btn-substack-dark.svg"><img alt="Substack" src="assets/img/btn-substack-light.svg" width="148"></picture></a></p>
 
 </div>
 
-<p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-about-dark.svg"><img alt="At Work" src="assets/img/section-about-light.svg" width="100%"></picture></p>
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-about-dark.svg"><img alt="The Day Job" src="assets/img/section-about-light.svg" width="100%"></picture></p>
 
 <p><a href="https://www.linkedin.com/in/shubham-prakash-dev/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/about-dark.svg"><img alt="Six years shipping systems people depend on. Now building them AI-first. Senior Full Stack Engineer at IBM Consulting: I lead teams, architect Spring Boot backends and ship Angular and React front ends, and build the AI layer into them." src="assets/img/about-light.svg" width="100%"></picture></a></p>
 
@@ -17,11 +17,9 @@
 
 <p><a href="https://shubhamcodess.github.io/everything-tech-newsletter/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-everythingtech-dark.svg"><img alt="EverythingTech: a daily tech newspaper with no human editor, written by a Claude Code routine from 47 sources" src="assets/img/card-everythingtech-light.svg" width="100%"></picture></a></p>
 
-<p><a href="https://shubhamcodess.github.io/mcp-token-optimizer/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-mcp-token-optimizer-dark.svg"><img alt="mcp-token-optimizer: a local proxy that strips noise from MCP tool responses" src="assets/img/card-mcp-token-optimizer-light.svg" width="49%"></picture></a>
-<a href="https://github.com/shubhamcodess/career-os"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-career-os-dark.svg"><img alt="career-os: a job hunt that runs like a system, built on Claude Code skills" src="assets/img/card-career-os-light.svg" width="49%"></picture></a></p>
+<p><a href="https://shubhamcodess.github.io/mcp-token-optimizer/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-mcp-token-optimizer-dark.svg"><img alt="mcp-token-optimizer: a local proxy that strips noise from MCP tool responses" src="assets/img/card-mcp-token-optimizer-light.svg" width="48%"></picture></a><a href="https://github.com/shubhamcodess/career-os"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-career-os-dark.svg"><img alt="career-os: a job hunt that runs like a system, built on Claude Code skills" src="assets/img/card-career-os-light.svg" width="48%"></picture></a></p>
 
-<p><a href="https://github.com/shubhamcodess/lets-dsa"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-lets-dsa-dark.svg"><img alt="lets-dsa: a DSA tutor that refuses to give you the answer" src="assets/img/card-lets-dsa-light.svg" width="49%"></picture></a>
-<a href="https://github.com/shubhamcodess/focusify-yt"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-focusify-yt-dark.svg"><img alt="focusify-yt: a Chrome extension that keeps YouTube on your study topic" src="assets/img/card-focusify-yt-light.svg" width="49%"></picture></a></p>
+<p><a href="https://github.com/shubhamcodess/lets-dsa"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-lets-dsa-dark.svg"><img alt="lets-dsa: a DSA tutor that refuses to give you the answer" src="assets/img/card-lets-dsa-light.svg" width="48%"></picture></a><a href="https://github.com/shubhamcodess/focusify-yt"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-focusify-yt-dark.svg"><img alt="focusify-yt: a Chrome extension that keeps YouTube on your study topic" src="assets/img/card-focusify-yt-light.svg" width="48%"></picture></a></p>
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-private-dark.svg"><img alt="From the private desk: Cerebro, Landskape, Job Orchestrator and Orbit CI/CD" src="assets/img/card-private-light.svg" width="100%"></picture></p>
 
