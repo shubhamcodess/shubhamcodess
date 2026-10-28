@@ -38,14 +38,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[Anthropic's S-1 shows over half of its $100,000-a-year customers now use both the API and a Claude app](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`STARTUPS`</sub>  
-  <sub><i>The filing points to a cross-selling pattern that makes Anthropic harder to leave, and it puts numbers on how much more those customers spend.</i></sub>
-- **[PHP2Shell flaws are being exploited in the wild days after patches shipped](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>Honeypot logs show working remote code execution, so the two PHP2Shell flaws now have a live attack behind them rather than a proof of concept.</i></sub>
-- **[Microsoft offers buyouts to about a quarter of its workforce, but expects fewer than 3,000 to accept](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`STARTUPS`</sub>  
-  <sub><i>The offer goes to roughly 60,000 employees with a December deadline, and it is designed as a way to reshape the company without layoffs.</i></sub>
+- **[A 9.5-severity UEFI firmware flaw has public patch code before most servers can be updated](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>The bug sits in open-source firmware code that most server makers reuse, and its fix was published before the planned disclosure date.</i></sub>
+- **[Tailscale SSH flaws let authorized users exceed their local permissions, with a patch due this week](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>Most of the findings are privilege escalation by users who already have SSH access, and the vendor has named a patch target for October 27.</i></sub>
+- **[Anthropic files for a Nasdaq IPO under the ticker ANT, with price and size still undecided](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`STARTUPS`</sub>  
+  <sub><i>The S-1 names the exchange and ticker but leaves the share count and price range open, and a prospectus summary puts the listing as early as the week…</i></sub>
 
-<sub>Edition of Tue 27 Oct 2026 · 30 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Wed 28 Oct 2026 · 28 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
