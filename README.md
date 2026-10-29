@@ -38,14 +38,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[A 9.5-severity UEFI firmware flaw has public patch code before most servers can be updated](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>The bug sits in open-source firmware code that most server makers reuse, and its fix was published before the planned disclosure date.</i></sub>
-- **[Tailscale SSH flaws let authorized users exceed their local permissions, with a patch due this week](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>Most of the findings are privilege escalation by users who already have SSH access, and the vendor has named a patch target for October 27.</i></sub>
-- **[Anthropic files for a Nasdaq IPO under the ticker ANT, with price and size still undecided](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`STARTUPS`</sub>  
-  <sub><i>The S-1 names the exchange and ticker but leaves the share count and price range open, and a prospectus summary puts the listing as early as the week…</i></sub>
+- **[Google's Gemini 4 Carbon leads on security and coding benchmarks, but outside users cannot use it yet](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>Google says the model is a large step up in finding and fixing vulnerabilities, and its rollout is staged with no firm date.</i></sub>
+- **[Anthropic says its research Claude found an algorithm that would refute the Exponential Time Hypothesis](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>The claim rests on a paper and an AI-written Lean formalization, and Anthropic concedes nothing machine-checks that the Lean statement matches the…</i></sub>
+- **[Microsoft's October patch fixes 1,415 flaws, and one Windows Shell bug is already being exploited](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>Eighty-five of the flaws are rated critical, and early reports from administrators describe two updates that broke network access.</i></sub>
 
-<sub>Edition of Wed 28 Oct 2026 · 28 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Thu 29 Oct 2026 · 30 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
