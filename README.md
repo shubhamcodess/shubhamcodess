@@ -38,14 +38,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[Google's Gemini 4 Carbon leads on security and coding benchmarks, but outside users cannot use it yet](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>Google says the model is a large step up in finding and fixing vulnerabilities, and its rollout is staged with no firm date.</i></sub>
-- **[Anthropic says its research Claude found an algorithm that would refute the Exponential Time Hypothesis](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>The claim rests on a paper and an AI-written Lean formalization, and Anthropic concedes nothing machine-checks that the Lean statement matches the…</i></sub>
-- **[Microsoft's October patch fixes 1,415 flaws, and one Windows Shell bug is already being exploited](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>Eighty-five of the flaws are rated critical, and early reports from administrators describe two updates that broke network access.</i></sub>
+- **[Binance suspends withdrawals as hackers drain an estimated $2 billion from hot wallets](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>Binance says user funds are safe, but the attacker is unknown and loss estimates run as high as $5.7 billion.</i></sub>
+- **[Google's Gemini 4 Carbon takes the top Artificial Analysis score but reaches only cyber defenders first](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>Google says Carbon leads on vulnerability-finding and patching benchmarks, and it will widen access only as its guardrails improve.</i></sub>
+- **[PHP2Shell and a kernel exploit have rooted 25 Palo Alto firewalls, including US government-linked servers](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>Dream's researchers say the attacker went on to Active Directory, where recovered artifacts confirm credential extraction.</i></sub>
 
-<sub>Edition of Thu 29 Oct 2026 · 30 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Fri 30 Oct 2026 · 26 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
