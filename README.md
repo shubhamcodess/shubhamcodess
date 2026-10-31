@@ -38,14 +38,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[Binance suspends withdrawals as hackers drain an estimated $2 billion from hot wallets](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>Binance says user funds are safe, but the attacker is unknown and loss estimates run as high as $5.7 billion.</i></sub>
-- **[Google's Gemini 4 Carbon takes the top Artificial Analysis score but reaches only cyber defenders first](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>Google says Carbon leads on vulnerability-finding and patching benchmarks, and it will widen access only as its guardrails improve.</i></sub>
-- **[PHP2Shell and a kernel exploit have rooted 25 Palo Alto firewalls, including US government-linked servers](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>Dream's researchers say the attacker went on to Active Directory, where recovered artifacts confirm credential extraction.</i></sub>
+- **[Cursor Marketplace's Claude Code extension shipped an SSH backdoor in versions 2.1.312 and 2.1.313](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>The compromised builds ran with the editor's permissions, so any machine that installed them should be treated as exposed until checked.</i></sub>
+- **[Binance hack grows to $6.3 billion, with most of it drained in about 20 minutes](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>Our October 30 coverage put the loss near $2 billion; tracing firms now put it at about three times that and say most of it moved in one short window.</i></sub>
+- **[Open-weight model GLM 5.3 turned unreleased Firefox security fixes into working browser exploits](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>Researchers estimate about $1,000 per Firefox version, using only information that was public when each release shipped.</i></sub>
 
-<sub>Edition of Fri 30 Oct 2026 · 26 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Sat 31 Oct 2026 · 26 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
