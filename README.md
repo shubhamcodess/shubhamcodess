@@ -38,14 +38,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[Cursor Marketplace's Claude Code extension shipped an SSH backdoor in versions 2.1.312 and 2.1.313](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>The compromised builds ran with the editor's permissions, so any machine that installed them should be treated as exposed until checked.</i></sub>
-- **[Binance hack grows to $6.3 billion, with most of it drained in about 20 minutes](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>Our October 30 coverage put the loss near $2 billion; tracing firms now put it at about three times that and say most of it moved in one short window.</i></sub>
-- **[Open-weight model GLM 5.3 turned unreleased Firefox security fixes into working browser exploits](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>Researchers estimate about $1,000 per Firefox version, using only information that was public when each release shipped.</i></sub>
+- **[Linux TCP handshake bug scores 9.8, and most distribution kernels still lack a fix](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>A remote, unauthenticated attacker can trigger a use-after-free in the IPv4 TCP handshake, and Anthropic says its Claude model wrote a working root…</i></sub>
+- **[ChatGPT's share feature let a single link take over the viewer's signed-in account](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>The write-up says the payload could read private conversations and call ChatGPT's authenticated APIs as the victim, and OpenAI fixed it on October 26.</i></sub>
+- **[Nvidia quietly cut Vera Rubin's published bandwidth specs by 13 to 17 percent](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`INFRA`</sub>  
+  <sub><i>Nvidia lowered the HBM4 and NVLink figures on its product pages in September without a press release, and the rack-level totals fell with them.</i></sub>
 
-<sub>Edition of Sat 31 Oct 2026 · 26 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Sun 01 Nov 2026 · 26 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
