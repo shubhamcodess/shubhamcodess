@@ -38,14 +38,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[Linux TCP handshake bug scores 9.8, and most distribution kernels still lack a fix](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>A remote, unauthenticated attacker can trigger a use-after-free in the IPv4 TCP handshake, and Anthropic says its Claude model wrote a working root…</i></sub>
-- **[ChatGPT's share feature let a single link take over the viewer's signed-in account](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>The write-up says the payload could read private conversations and call ChatGPT's authenticated APIs as the victim, and OpenAI fixed it on October 26.</i></sub>
-- **[Nvidia quietly cut Vera Rubin's published bandwidth specs by 13 to 17 percent](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`INFRA`</sub>  
-  <sub><i>Nvidia lowered the HBM4 and NVLink figures on its product pages in September without a press release, and the rack-level totals fell with them.</i></sub>
+- **[FBI blames North Korea for the $6.3 billion Binance heist as withdrawals reopen](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>The attribution is new: the loss is now put at $6.3 billion, far above the $2 billion estimate we cited on October 30, and the stolen funds are…</i></sub>
+- **[OpenAI plans to buy Google TPUs, its first large move beyond Nvidia chips](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>The reported deal has no disclosed size, price or delivery schedule, but it adds a supplier to a relationship that already includes rented Google…</i></sub>
+- **[AWS says its 2027 capacity is largely sold out, but on-demand headroom is held back](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`INFRA`</sub>  
+  <sub><i>Andy Jassy's claim covers large pre-reserved blocks, and developers report tighter on-demand supply for ordinary instances, so the two accounts need…</i></sub>
 
-<sub>Edition of Sun 01 Nov 2026 · 26 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Mon 02 Nov 2026 · 19 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
