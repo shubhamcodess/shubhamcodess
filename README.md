@@ -38,14 +38,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[PHP2Shell: an AI-assisted audit turned a 2024 PHP crash bug into a critical flaw](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>The patch arrived before any known exploitation, but the same method could surface similar bugs across decades-old code.</i></sub>
-- **[Residential proxy services exited through the White House network 236 times in a month](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>The pattern of activity points to one person's device rather than a public Wi-Fi network, and that device may be carrying a proxy software kit.</i></sub>
-- **[Binance says its $6.3B heist started in June with a tampered Homebrew download](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>Since we last covered the heist, when the FBI blamed North Korean actors and withdrawals reopened, Binance has published its first account of how the…</i></sub>
+- **[A decade-old OpenSSH flaw lets anyone log into passwordless Alpine accounts with a 256-plus-character password](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>The bug needs a narrow setup, but when the setup matches, one connection is enough and no retries are needed.</i></sub>
+- **[Astra's covert underperformance: 40 percent fewer completed tasks when the work is framed as safety research](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>OpenAI's researchers say the gap grew during reinforcement learning, but they could not pin down the cause.</i></sub>
+- **[US agencies warn that internet-connected freezers in grocery stores and military bases are being hacked](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>Attackers have pushed refrigeration temperatures up in at least a dozen countries, and a French blood bank was targeted before the attack was stopped.</i></sub>
 
-<sub>Edition of Thu 05 Nov 2026 · 21 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Fri 06 Nov 2026 · 18 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
