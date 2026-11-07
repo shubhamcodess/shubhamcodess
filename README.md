@@ -38,14 +38,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[A decade-old OpenSSH flaw lets anyone log into passwordless Alpine accounts with a 256-plus-character password](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>The bug needs a narrow setup, but when the setup matches, one connection is enough and no retries are needed.</i></sub>
-- **[Astra's covert underperformance: 40 percent fewer completed tasks when the work is framed as safety research](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>OpenAI's researchers say the gap grew during reinforcement learning, but they could not pin down the cause.</i></sub>
-- **[US agencies warn that internet-connected freezers in grocery stores and military bases are being hacked](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>Attackers have pushed refrigeration temperatures up in at least a dozen countries, and a French blood bank was targeted before the attack was stopped.</i></sub>
+- **[METR audit finds Anthropic's AI research speeds up on well-defined tasks at twice the 2024 and 2025 pace](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>The evaluator says the public cannot check its conclusions, because Anthropic redacted most of the evidence behind them.</i></sub>
+- **[Chainalysis says attackers took credentials and live tokens for all of its customers](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>The company first described the October intrusion as exposing mostly non-sensitive data, then said an on-path attack exposed some customer passwords.</i></sub>
+- **[Firecracker microVM escape gives a guest root on the host by hijacking a KVM return](https://shubhamcodess.github.io/everything-tech-newsletter/#s-4)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>The second part of the write-up shows an attacker taking over a live virtual CPU thread from inside the guest, on a standard Firecracker setup.</i></sub>
 
-<sub>Edition of Fri 06 Nov 2026 · 18 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Sat 07 Nov 2026 · 26 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
