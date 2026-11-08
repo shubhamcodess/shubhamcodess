@@ -38,14 +38,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[METR audit finds Anthropic's AI research speeds up on well-defined tasks at twice the 2024 and 2025 pace](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>The evaluator says the public cannot check its conclusions, because Anthropic redacted most of the evidence behind them.</i></sub>
-- **[Chainalysis says attackers took credentials and live tokens for all of its customers](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>The company first described the October intrusion as exposing mostly non-sensitive data, then said an on-path attack exposed some customer passwords.</i></sub>
-- **[Firecracker microVM escape gives a guest root on the host by hijacking a KVM return](https://shubhamcodess.github.io/everything-tech-newsletter/#s-4)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>The second part of the write-up shows an attacker taking over a live virtual CPU thread from inside the guest, on a standard Firecracker setup.</i></sub>
+- **[METR finds Anthropic's models now improve about twice as fast as a year ago, largely because of AI](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>The report is clear about the acceleration and vague about the details, because Anthropic redacted large parts of the final text.</i></sub>
+- **[Every Mac since 2022 quietly builds a graph of your contacts and relationships](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>The graph infers who your family members are and how they relate to each other, and most of the mechanism is undocumented.</i></sub>
+- **[Approved Nvidia H200 buyer New Matrix has an empty office and little trace online](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>The firm is on the government's approved list, yet it has no visible operations, and its owners have ties to a blacklisted investment firm.</i></sub>
 
-<sub>Edition of Sat 07 Nov 2026 · 26 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Sun 08 Nov 2026 · 20 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
