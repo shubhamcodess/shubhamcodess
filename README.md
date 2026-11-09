@@ -38,14 +38,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[METR finds Anthropic's models now improve about twice as fast as a year ago, largely because of AI](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>The report is clear about the acceleration and vague about the details, because Anthropic redacted large parts of the final text.</i></sub>
-- **[Every Mac since 2022 quietly builds a graph of your contacts and relationships](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>The graph infers who your family members are and how they relate to each other, and most of the mechanism is undocumented.</i></sub>
-- **[Approved Nvidia H200 buyer New Matrix has an empty office and little trace online](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>The firm is on the government's approved list, yet it has no visible operations, and its owners have ties to a blacklisted investment firm.</i></sub>
+- **[Goodbye Claude Code: a longtime user moves to Pi over IDE and status-line gaps](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>Its AGENTS.md support arrived a day too late, and the complaints that drove the switch centre on editor integration rather than model quality.</i></sub>
+- **[Nvidia's board opens an independent probe after Jensen Huang admits an affair with an alleged Chinese spy](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`STARTUPS`</sub>  
+  <sub><i>The board says it has no reason to believe national security or company secrets were compromised, but it will examine all available information.</i></sub>
+- **[Cloudflare splits D1's control plane across Postgres, ClickHouse and Workers KV to manage millions of databases](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`INFRA`</sub>  
+  <sub><i>Daily active databases have grown 18-fold in a year, and the redesign keeps query traffic away from the central metadata store.</i></sub>
 
-<sub>Edition of Sun 08 Nov 2026 · 20 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Mon 09 Nov 2026 · 30 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
