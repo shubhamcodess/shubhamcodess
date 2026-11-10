@@ -38,14 +38,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[Goodbye Claude Code: a longtime user moves to Pi over IDE and status-line gaps](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>Its AGENTS.md support arrived a day too late, and the complaints that drove the switch centre on editor integration rather than model quality.</i></sub>
-- **[Nvidia's board opens an independent probe after Jensen Huang admits an affair with an alleged Chinese spy](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`STARTUPS`</sub>  
-  <sub><i>The board says it has no reason to believe national security or company secrets were compromised, but it will examine all available information.</i></sub>
-- **[Cloudflare splits D1's control plane across Postgres, ClickHouse and Workers KV to manage millions of databases](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`INFRA`</sub>  
-  <sub><i>Daily active databases have grown 18-fold in a year, and the redesign keeps query traffic away from the central metadata store.</i></sub>
+- **[Anthropic ships Fable 5.2 and Mythos 5.2 at a lower price with faster output](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>The dek: Both models are cheaper per token than before, and the fast mode is priced at double the standard rate.</i></sub>
+- **[Claude Code's "don't ask again" approvals are leaking secrets into public GitHub repos](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`DEV TOOLS`</sub>  
+  <sub><i>The dek: Apiiro found more than 100,000 public uploads of Claude Code's local settings file, and about 1,100 of them contained live credentials.</i></sub>
+- **[Hotel giant Wyndham left a hardcoded password in its Android app, exposing customer records](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>The dek: The password opened a Salesforce-hosted database holding millions of entries, and Wyndham has not said how long it was exposed.</i></sub>
 
-<sub>Edition of Mon 09 Nov 2026 · 30 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Tue 10 Nov 2026 · 13 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
