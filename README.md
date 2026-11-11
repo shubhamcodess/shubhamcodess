@@ -38,14 +38,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[Anthropic ships Fable 5.2 and Mythos 5.2 at a lower price with faster output](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>The dek: Both models are cheaper per token than before, and the fast mode is priced at double the standard rate.</i></sub>
-- **[Claude Code's "don't ask again" approvals are leaking secrets into public GitHub repos](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`DEV TOOLS`</sub>  
-  <sub><i>The dek: Apiiro found more than 100,000 public uploads of Claude Code's local settings file, and about 1,100 of them contained live credentials.</i></sub>
-- **[Hotel giant Wyndham left a hardcoded password in its Android app, exposing customer records](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>The dek: The password opened a Salesforce-hosted database holding millions of entries, and Wyndham has not said how long it was exposed.</i></sub>
+- **[Anthropic's seven co-founders each plan to sell about $250 million of stock in the IPO](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`STARTUPS`</sub>  
+  <sub><i>The S-1 also gives the seven founders 51.1 percent of the votes between them, a control structure that outlasts the listing.</i></sub>
+- **[Google DeepMind uses AI agents to formally verify the code behind Signal's cryptographic protocol](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>The proof effort produced over six million lines of Lean, and human reviewers only had to examine about one percent of the codebase.</i></sub>
+- **[Grok Build's share links exposed thousands of apps, including 24 built by SpaceXSI itself](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>Anyone could list live Grok Build projects, and some of the exposed material belonged to the company that makes Grok.</i></sub>
 
-<sub>Edition of Tue 10 Nov 2026 · 13 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Wed 11 Nov 2026 · 25 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
