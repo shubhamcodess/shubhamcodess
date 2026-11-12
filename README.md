@@ -38,14 +38,14 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[Anthropic's seven co-founders each plan to sell about $250 million of stock in the IPO](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`STARTUPS`</sub>  
-  <sub><i>The S-1 also gives the seven founders 51.1 percent of the votes between them, a control structure that outlasts the listing.</i></sub>
-- **[Google DeepMind uses AI agents to formally verify the code behind Signal's cryptographic protocol](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>The proof effort produced over six million lines of Lean, and human reviewers only had to examine about one percent of the codebase.</i></sub>
-- **[Grok Build's share links exposed thousands of apps, including 24 built by SpaceXSI itself](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>Anyone could list live Grok Build projects, and some of the exposed material belonged to the company that makes Grok.</i></sub>
+- **[Nvidia's board weighs ousting Jensen Huang after a second affair report](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`STARTUPS`</sub>  
+  <sub><i>The board has hired a former federal prosecutor to investigate, while Trump says the FBI is looking into an alleged Chinese spy link.</i></sub>
+- **[AWS releases a free, open-source emulator that runs AWS APIs on your laptop](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`DEV TOOLS`</sub>  
+  <sub><i>Tests and coding agents talk to a local HTTPS endpoint at no charge, and you pay for AWS resources only once you deploy.</i></sub>
+- **[Gemini 4 Carbon reaches all paying developers at $2 and $10 per million tokens](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>Carbon is aimed at the hardest multi-step coding and research work, while Google still recommends the cheaper Argon model for most tasks.</i></sub>
 
-<sub>Edition of Wed 11 Nov 2026 · 25 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Thu 12 Nov 2026 · 16 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg"><img alt="On the Wire" src="assets/img/section-activity-light.svg" width="100%"></picture></p>
