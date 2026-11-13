@@ -34,9 +34,9 @@ def section(key, title):
 
 CARDS = [
     ("mcp-token-optimizer", "mcp-token-optimizer: a local proxy that strips noise from MCP tool responses"),
-    ("career-os", "career-os: a job hunt that runs like a system, built on Claude Code skills"),
-    ("lets-dsa", "lets-dsa: a DSA tutor that refuses to give you the answer"),
-    ("focusify-yt", "focusify-yt: a Chrome extension that keeps YouTube on your study topic"),
+    ("tiny-browse", "tiny-browse: gives any AI agent web search as clean Markdown, in 126 kB"),
+    ("whatcmd", "whatcmd: plain English in, the right shell command out, on a local model"),
+    ("notch-porch", "notch-porch: a widget dock that lives in your MacBook's notch"),
 ]
 BUTTONS = [
     ("linkedin", LI, "LinkedIn"),
@@ -46,7 +46,11 @@ BUTTONS = [
 ]
 
 
-LINKS = {"mcp-token-optimizer": "https://shubhamcodess.github.io/mcp-token-optimizer/"}  # default: the repo
+LINKS = {
+    "mcp-token-optimizer": "https://shubhamcodess.github.io/mcp-token-optimizer/",
+    "whatcmd": "https://shubhamcodess.github.io/whatcmd/",
+}  # default: the repo
+ALL_REPOS = f"{GH}?tab=repositories&type=public&sort=updated"
 
 
 def pair(x, y):
@@ -68,11 +72,17 @@ README = f"""<div align="center">
 
 {section("work", "Front Page")}
 
-{block(a(SITE, pic("card-everythingtech", "EverythingTech: a daily tech newspaper with no human editor, written by a Claude Code routine from 47 sources")))}
+{block(a(SITE, pic("card-everythingtech", "EverythingTech: a daily tech newspaper with no human editor, written by a Claude Code routine from 45+ sources")))}
 
 {pair(CARDS[0], CARDS[1])}
 
 {pair(CARDS[2], CARDS[3])}
+
+<div align="center">
+
+{block(a(ALL_REPOS, pic("btn-view-all", "View all projects", "200")))}
+
+</div>
 
 {block(pic("card-private", "From the private desk: Cerebro, Landskape, Job Orchestrator and Orbit CI/CD"))}
 

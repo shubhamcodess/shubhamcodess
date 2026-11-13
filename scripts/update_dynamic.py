@@ -169,7 +169,43 @@ def stats_card_public(theme: str, r: dict) -> None:
     s.save("stats")
 
 
+# --------------------------------------------------------------------------- npm
+
+def npm_total(pkg: str) -> int:
+    """All-time downloads. The range API caps a query at 18 months, so walk it in chunks."""
+    created = json.loads(get(f"https://registry.npmjs.org/{pkg}"))["time"]["created"][:10]
+    start, today, total = dt.date.fromisoformat(created), dt.date.today(), 0
+    while start <= today:
+        end = min(start + dt.timedelta(days=500), today)
+        data = json.loads(get(f"https://api.npmjs.org/downloads/range/{start}:{end}/{pkg}"))
+        total += sum(d["downloads"] for d in data.get("downloads", []))
+        start = end + dt.timedelta(days=1)
+    return total
+
+
+def refresh_npm() -> None:
+    """Redraw the project cards only when a download count moved."""
+    import build
+    counts = dict(build.NPM)
+    for c in build.CARDS:
+        if c.get("npm"):
+            try:
+                counts[c["npm"]] = npm_total(c["npm"])
+            except Exception as e:  # keep the last count for this package
+                print("npm skipped:", c["npm"], e)
+    if counts == build.NPM:
+        print("npm unchanged", counts)
+        return
+    build.NPM = counts
+    build.NPM_FILE.write_text(json.dumps(counts, indent=2, sort_keys=True) + "\n")
+    for theme in ("dark", "light"):
+        build.small_cards(theme)
+    print("npm refreshed", counts)
+
+
 if __name__ == "__main__":
+    refresh_npm()
+
     text = README.read_text(encoding="utf-8")
     try:
         text = replace_block(text, "NEWS", headlines())

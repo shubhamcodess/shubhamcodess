@@ -7,6 +7,9 @@ career-os/data/master-experience.md — edit there first, then here.
 """
 from __future__ import annotations
 
+import json
+from pathlib import Path
+
 from svgkit import SVG, measure, wrap
 
 W = 840
@@ -45,35 +48,36 @@ LEAD = {
     "no": "NO.01", "topic": "AI · AUTOMATION", "extra": "PYTHON", "color": "lime",
     "name": "EverythingTech",
     "headline": "A daily tech newspaper with no human editor",
-    "dek": ("Python pulls 47 free sources and clusters duplicate coverage. A scheduled Claude Code "
+    "dek": ("Python pulls 45+ free sources and clusters duplicate coverage. A scheduled Claude Code "
             "routine picks, ranks and writes each story from the full article, and GitHub Pages "
             "serves it. No server, no database, no API key."),
-    "stats": [("47", "SOURCES"), ("1", "EDITION A DAY"), ("0", "API KEYS")],
+    "stats": [("45+", "SOURCES"), ("1", "EDITION A DAY"), ("0", "API KEYS")],
     "stack": "Python · Claude Code routines · GitHub Actions · Pages",
     "cta": "READ TODAY'S EDITION ↗",
 }
 
+# Featured first (two rows of two above the EverythingTech lead), then the rest in pairs.
 CARDS = [
-    {"no": "NO.02", "topic": "AI INFRA", "extra": "TYPESCRIPT", "color": "cyan", "slug": "mcp-token-optimizer",
+    {"no": "NO.02", "topic": "AI INFRA", "extra": "TYPESCRIPT", "color": "cyan", "slug": "mcp-token-optimizer", "npm": "@shubhamcodess/mcp-token-optimizer",
      "name": "mcp-token-optimizer",
      "dek": ("A local proxy between your AI agent and its MCP servers that strips the noise from "
              "every tool response. Lossless first, fail-open, zero telemetry."),
      "stat": "UP TO 98% FEWER TOKENS", "stack": "TypeScript · Node · MCP · Ollama · TOON"},
-    {"no": "NO.03", "topic": "AGENTS", "extra": "CLAUDE CODE", "color": "violet", "slug": "career-os",
-     "name": "career-os",
-     "dek": ("A job hunt that runs like a system: Claude Code skills that pull live openings every "
-             "morning, tailor each resume and remember every decision."),
-     "stat": "22 SKILLS · 11 ATS PLATFORMS", "stack": "Claude Code · Python · Markdown + JSON"},
-    {"no": "NO.04", "topic": "LEARNING", "extra": "CLAUDE CODE", "color": "pink", "slug": "lets-dsa",
-     "name": "lets-dsa",
-     "dek": ("A DSA tutor that refuses to give you the answer. Learn the pattern, derive the "
-             "approach, solve it yourself. Five hints, then it stops helping."),
-     "stat": "428 PROBLEMS · 20 PATTERNS", "stack": "Claude Code · Python · MCP guardrails"},
-    {"no": "NO.05", "topic": "TOOLS", "extra": "JAVASCRIPT", "color": "amber", "slug": "focusify-yt",
-     "name": "focusify-yt",
-     "dek": ("A Chrome extension that keeps YouTube on your study topic and hides everything else. "
-             "Optional local AI, no accounts, no tracking."),
-     "stat": "MANIFEST V3 · LOCAL LLM", "stack": "JavaScript · Chrome MV3 · Ollama"},
+    {"no": "NO.03", "topic": "AI INFRA", "extra": "TYPESCRIPT", "color": "mint", "slug": "tiny-browse", "npm": "@shubhamcodess/tiny-browse",
+     "name": "tiny-browse",
+     "dek": ("Gives any AI agent the web: searches Google in the Chrome you already have and returns "
+             "clean Markdown inside a hard token budget. No API keys."),
+     "stat": "126 KB · ZERO DEPENDENCIES", "stack": "TypeScript · Node · MCP · npm"},
+    {"no": "NO.04", "topic": "DEV TOOLS", "extra": "TYPESCRIPT", "color": "amber", "slug": "whatcmd", "npm": "@shubhamcodess/whatcmd",
+     "name": "whatcmd",
+     "dek": ("Type plain English at your prompt, get the right shell command for your OS and tools. "
+             "Local model, web lookup only when it fails, never runs anything."),
+     "stat": "LOCAL LLM · NEVER AUTO-RUNS", "stack": "TypeScript · Ollama · tiny-browse"},
+    {"no": "NO.05", "topic": "DESKTOP", "extra": "JAVASCRIPT", "color": "coral", "slug": "notch-porch",
+     "name": "notch-porch",
+     "dek": ("A widget dock that lives in your MacBook's notch. Hover and a card drops down; the "
+             "first widget is a full YouTube Music player."),
+     "stat": "MACOS + WINDOWS · YT MUSIC", "stack": "JavaScript · Electron · Plugin widgets"},
 ]
 
 PRIVATE = [
@@ -136,6 +140,10 @@ CONNECT = [
     ("substack", "coral", "SUBSTACK"),
 ]
 
+
+# All-time npm downloads per package, written daily by update_dynamic.py.
+NPM_FILE = Path(__file__).resolve().parent.parent / "assets" / "npm.json"
+NPM = json.loads(NPM_FILE.read_text()) if NPM_FILE.exists() else {}
 
 # --------------------------------------------------------------------------- pieces
 
@@ -344,13 +352,16 @@ def lead_card(theme: str) -> None:
 def small_cards(theme: str) -> None:
     inner = HALF - 52
     # rows of two share a height
-    for pair in (CARDS[0:2], CARDS[2:4]):
+    for pair in (CARDS[i:i + 2] for i in range(0, len(CARDS), 2)):
         deks = [wrap(c["dek"], "si", 15, inner) for c in pair]
         H = 84 + 20 + max(len(d) for d in deks) * 22 + 94
         for c, dek in zip(pair, deks):
             s = SVG(HALF + 10, H + 10, theme, f"{c['name']}: {c['dek']}")
             s.card(0, 0, HALF - 2, H, accent=c["color"])
             s.kicker(24, 36, c["no"], c["topic"], c["color"], c["extra"])
+            if NPM.get(c.get("npm")):
+                label = f"↓ {NPM[c['npm']]:,} ON NPM"
+                s.stamp(HALF - 26 - (measure(label, "m7", 10.5, 0.12) + 16) / 2, 31, label, c["color"], rot=-2)
             s.text(24, 76, c["name"], "d7", 23, "ink", tracking=-0.02)
             s.lines(24, 76 + 30, dek, 22, style="si", size=15, fill="ink2")
             s.text(24, H - 64, c["stat"], "m7", 11.5, c["color"], tracking=0.08)
@@ -540,6 +551,18 @@ def connect(theme: str) -> None:
         s.save(f"btn-{key}")
 
 
+def view_all(theme: str) -> None:
+    """Wide-ish single button under the project cards: opens the public repo list, newest first."""
+    bw, bh = 260, 40
+    s = SVG(bw + 8, bh + 8, theme, "View all projects")
+    s.rect(5, 5, bw - 2, bh, fill="shadow", rx=3)
+    s.rect(2.5, 2.5, bw - 2, bh, fill="lime", rx=3)
+    s.rect(0.5, 0.5, bw - 2, bh, fill="bg", stroke="strong", sw=1.2, rx=3)
+    s.text(18, bh / 2 + 5, "VIEW ALL PROJECTS", "m7", 13, "ink", tracking=0.08)
+    s.text(bw - 16, bh / 2 + 5, "→", "m7", 14, "lime", anchor="end")
+    s.save("btn-view-all")
+
+
 def footer(theme: str) -> None:
     s = SVG(W, 96, theme, "Let's build something. Say hi on LinkedIn or email prakashshubham36@gmail.com")
     s.line(0, 10, W, 10, "strong", sw=1)
@@ -565,5 +588,6 @@ if __name__ == "__main__":
         creds(theme)
         culture(theme)
         connect(theme)
+        view_all(theme)
         footer(theme)
     print("built")
