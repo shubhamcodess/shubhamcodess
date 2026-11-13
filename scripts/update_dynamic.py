@@ -222,3 +222,7 @@ if __name__ == "__main__":
         for theme in ("dark", "light"):
             stats_card(theme, c, r) if STATS == "full" else stats_card_public(theme, r)
         print("refreshed", STATS, r["repos"], dict(r["langs"].most_common(6)))
+
+    # image URLs carry a content hash, so re-emit the README after any redraw
+    import make_readme
+    make_readme.write()

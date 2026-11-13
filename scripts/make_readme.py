@@ -3,6 +3,7 @@
 Every <picture> is emitted on one line: GitHub's markdown parser splits a
 multi-line <a><picture> apart, which drops the dark-mode <source>.
 """
+import hashlib
 import re
 from pathlib import Path
 
@@ -13,9 +14,15 @@ GH = "https://github.com/shubhamcodess"
 RAW = "https://raw.githubusercontent.com/shubhamcodess/shubhamcodess/output"
 
 
+def v(path):
+    """Append a short content hash so GitHub and browsers fetch a changed image instead of a cached one."""
+    f = ROOT / path
+    return f"{path}?v={hashlib.sha1(f.read_bytes()).hexdigest()[:8]}" if f.exists() else path
+
+
 def pic(name, alt, width="100%", dark=None, light=None):
-    d = dark or f"assets/img/{name}-dark.svg"
-    l = light or f"assets/img/{name}-light.svg"
+    d = dark or v(f"assets/img/{name}-dark.svg")
+    l = light or v(f"assets/img/{name}-light.svg")
     return (f'<picture><source media="(prefers-color-scheme: dark)" srcset="{d}">'
             f'<img alt="{alt}" src="{l}" width="{width}"></picture>')
 
@@ -58,7 +65,8 @@ def pair(x, y):
     return "<p>" + "".join(a(LINKS.get(slug, f"{GH}/{slug}"), pic(f"card-{slug}", alt, "48%")) for slug, alt in (x, y)) + "</p>"
 
 
-README = f"""<div align="center">
+def render():
+    return f"""<div align="center">
 
 {block(pic("header", "Shubham Prakash. Building scalable systems with AI integrations at the core. Senior Full Stack Engineer, cloud native, agentic AI."))}
 
@@ -116,10 +124,16 @@ README = f"""<div align="center">
 {block(a(LI, pic("footer", "Let's build something. Say hi on LinkedIn or email prakashshubham36@gmail.com")))}
 """
 
-if __name__ == "__main__":
+def write():
+    """Rebuild README.md around the current NEWS block. Called again by update_dynamic.py after it redraws images."""
     path = ROOT / "README.md"
     old = path.read_text(encoding="utf-8") if path.exists() else ""
     news = re.search(r"<!-- NEWS:START -->.*?<!-- NEWS:END -->", old, re.S)
-    text = README.replace("<!-- NEWS:START -->\n<!-- NEWS:END -->", news.group(0)) if news else README
+    text = render()
+    text = text.replace("<!-- NEWS:START -->\n<!-- NEWS:END -->", news.group(0)) if news else text
     path.write_text(text, encoding="utf-8")
+
+
+if __name__ == "__main__":
+    write()
     print("README.md written")
