@@ -56,7 +56,7 @@
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg?v=4766a7cc"><img alt="On the Wire" src="assets/img/section-activity-light.svg?v=1f9e7664" width="100%"></picture></p>
 
-<p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/stats-dark.svg?v=ddd6109a"><img alt="GitHub activity: contributions, streaks and top languages" src="assets/img/stats-light.svg?v=a075e64f" width="100%"></picture></p>
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/stats-dark.svg?v=cec3ab58"><img alt="GitHub activity: contributions, streaks and top languages" src="assets/img/stats-light.svg?v=d0714296" width="100%"></picture></p>
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shubhamcodess/shubhamcodess/output/snake-dark.svg"><img alt="Contribution graph being eaten by a snake" src="https://raw.githubusercontent.com/shubhamcodess/shubhamcodess/output/snake-light.svg" width="100%"></picture></p>
 
