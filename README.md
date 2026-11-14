@@ -17,9 +17,9 @@
 
 <p><a href="https://shubhamcodess.github.io/everything-tech-newsletter/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-everythingtech-dark.svg?v=5671b5bf"><img alt="EverythingTech: a daily tech newspaper with no human editor, written by a Claude Code routine from 45+ sources" src="assets/img/card-everythingtech-light.svg?v=8b948314" width="100%"></picture></a></p>
 
-<p><a href="https://shubhamcodess.github.io/mcp-token-optimizer/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-mcp-token-optimizer-dark.svg?v=ba03b3eb"><img alt="mcp-token-optimizer: a local proxy that strips noise from MCP tool responses" src="assets/img/card-mcp-token-optimizer-light.svg?v=2a5779f7" width="48%"></picture></a><a href="https://github.com/shubhamcodess/tiny-browse"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-tiny-browse-dark.svg?v=33cad38d"><img alt="tiny-browse: gives any AI agent web search as clean Markdown, in 126 kB" src="assets/img/card-tiny-browse-light.svg?v=557f6bdc" width="48%"></picture></a></p>
+<p><a href="https://shubhamcodess.github.io/mcp-token-optimizer/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-mcp-token-optimizer-dark.svg?v=e0535191"><img alt="mcp-token-optimizer: a local proxy that strips noise from MCP tool responses" src="assets/img/card-mcp-token-optimizer-light.svg?v=c1046c52" width="48%"></picture></a><a href="https://github.com/shubhamcodess/tiny-browse"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-tiny-browse-dark.svg?v=2599606b"><img alt="tiny-browse: gives any AI agent web search as clean Markdown, in 126 kB" src="assets/img/card-tiny-browse-light.svg?v=5dcc83d3" width="48%"></picture></a></p>
 
-<p><a href="https://shubhamcodess.github.io/whatcmd/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-whatcmd-dark.svg?v=64bc59aa"><img alt="whatcmd: plain English in, the right shell command out, on a local model" src="assets/img/card-whatcmd-light.svg?v=da33aa82" width="48%"></picture></a><a href="https://github.com/shubhamcodess/notch-porch"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-notch-porch-dark.svg?v=8746bc8d"><img alt="notch-porch: a widget dock that lives in your MacBook's notch" src="assets/img/card-notch-porch-light.svg?v=d1a71bcf" width="48%"></picture></a></p>
+<p><a href="https://shubhamcodess.github.io/whatcmd/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-whatcmd-dark.svg?v=24a4df3c"><img alt="whatcmd: plain English in, the right shell command out, on a local model" src="assets/img/card-whatcmd-light.svg?v=8ff27f13" width="48%"></picture></a><a href="https://github.com/shubhamcodess/notch-porch"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-notch-porch-dark.svg?v=e7461cae"><img alt="notch-porch: a widget dock that lives in your MacBook's notch" src="assets/img/card-notch-porch-light.svg?v=99c0a2e8" width="48%"></picture></a></p>
 
 <div align="center">
 
@@ -44,19 +44,19 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg?v=6442d83c"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg?v=a5e8ab0b" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[Jensen Huang resigns as Nvidia CEO after reports of affairs, one with an alleged Chinese spy](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`STARTUPS`</sub>  
-  <sub><i>Nvidia is now run on an interim basis by its CFO, and a federal investigation into Megaspeed, the chip buyer tied to one of Huang's alleged…</i></sub>
-- **[Anthropic's IPO roadshow reports $17 billion in Q3 revenue alongside a $23 billion loss](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`STARTUPS`</sub>  
-  <sub><i>Shares are expected to be priced on November 18 and begin trading on Nasdaq as ANT on November 19, with retail buyers able to request allocations…</i></sub>
-- **[Gemini 4 Hydrogen brings a cheaper model to everyday agent work, and Antigravity switches it in mid-task](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>Its rate is identical across the full one-million-token window, at $1.50 in and $7.50 out per million tokens, which makes per-task costs easy to…</i></sub>
+- **[FAA halts all US departures nationwide over a telecom failure, stranding hundreds of thousands](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`INFRA`</sub>  
+  <sub><i>No sign of a cyberattack has surfaced so far, but a Dartmouth aviation logistics professor estimates 300,000 to 400,000 passengers were stranded.</i></sub>
+- **[Six recent Chinese AI models bear the hardware fingerprint of banned Nvidia Blackwell GPUs](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>The method reads only the published weights, so it establishes how the models were built, not where the chips were or whether export rules were…</i></sub>
+- **[Windows zero-day SignDrop lets a local user reach System rights by abusing Defender and CLFS](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>The flaw comes from a mitigation Microsoft added in October 2025 to block other CLFS exploits, and the source does not say whether a patch exists.</i></sub>
 
-<sub>Edition of Fri 13 Nov 2026 · 25 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Sat 14 Nov 2026 · 24 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg?v=4766a7cc"><img alt="On the Wire" src="assets/img/section-activity-light.svg?v=1f9e7664" width="100%"></picture></p>
 
-<p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/stats-dark.svg?v=cec3ab58"><img alt="GitHub activity: contributions, streaks and top languages" src="assets/img/stats-light.svg?v=d0714296" width="100%"></picture></p>
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/stats-dark.svg?v=bfc018d9"><img alt="GitHub activity: contributions, streaks and top languages" src="assets/img/stats-light.svg?v=59eb4228" width="100%"></picture></p>
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shubhamcodess/shubhamcodess/output/snake-dark.svg"><img alt="Contribution graph being eaten by a snake" src="https://raw.githubusercontent.com/shubhamcodess/shubhamcodess/output/snake-light.svg" width="100%"></picture></p>
 
