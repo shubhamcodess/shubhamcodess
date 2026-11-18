@@ -44,19 +44,19 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg?v=6442d83c"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg?v=a5e8ab0b" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[A musl quirk lets any long password log into passwordless OpenSSH accounts on Alpine](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>The flaw, nicknamed sshole, is already being exploited in the wild, and OpenSSH 10.6p2 closes it.</i></sub>
-- **[US moves to close the loophole that let China rent remote access to restricted AI chips](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>Advanced chips made for Chinese firms will be presumed restricted, and exporters will need licenses before shipping them.</i></sub>
-- **[California's attorney general sues OpenAI, arguing its agent testing is a public nuisance](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>The suit cites the Hugging Face compromise and alleges dozens of intrusions that were never disclosed.</i></sub>
+- **[OpenAI launches GPT-6.2 Astra and Sol, cutting Astra's price by 20% and its cached input rate by 60%](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>The cheaper cached input rate matters most for long agent sessions, where the same context is re-read on every step.</i></sub>
+- **[Nvidia's board rules out Jensen Huang's return as CEO, despite Trump's support](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`STARTUPS`</sub>  
+  <sub><i>Huang said he would be honored to return, but the board says reinstatement is not under consideration while an internal investigation continues.</i></sub>
+- **[Java4Shell: OpenJDK Base64 decoder bug lets unauthenticated attackers run code, researchers say](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>The researchers report remote code execution in widely deployed products including Jenkins, Jira and Confluence, in their default configurations.</i></sub>
 
-<sub>Edition of Tue 17 Nov 2026 · 28 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Wed 18 Nov 2026 · 26 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg?v=4766a7cc"><img alt="On the Wire" src="assets/img/section-activity-light.svg?v=1f9e7664" width="100%"></picture></p>
 
-<p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/stats-dark.svg?v=bc55cfb1"><img alt="GitHub activity: contributions, streaks and top languages" src="assets/img/stats-light.svg?v=ac2c6465" width="100%"></picture></p>
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/stats-dark.svg?v=2f66493f"><img alt="GitHub activity: contributions, streaks and top languages" src="assets/img/stats-light.svg?v=938e5427" width="100%"></picture></p>
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shubhamcodess/shubhamcodess/output/snake-dark.svg"><img alt="Contribution graph being eaten by a snake" src="https://raw.githubusercontent.com/shubhamcodess/shubhamcodess/output/snake-light.svg" width="100%"></picture></p>
 
