@@ -17,9 +17,9 @@
 
 <p><a href="https://shubhamcodess.github.io/everything-tech-newsletter/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-everythingtech-dark.svg?v=5671b5bf"><img alt="EverythingTech: a daily tech newspaper with no human editor, written by a Claude Code routine from 45+ sources" src="assets/img/card-everythingtech-light.svg?v=8b948314" width="100%"></picture></a></p>
 
-<p><a href="https://shubhamcodess.github.io/mcp-token-optimizer/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-mcp-token-optimizer-dark.svg?v=517a3258"><img alt="mcp-token-optimizer: a local proxy that strips noise from MCP tool responses" src="assets/img/card-mcp-token-optimizer-light.svg?v=2a0be8b4" width="48%"></picture></a><a href="https://github.com/shubhamcodess/tiny-browse"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-tiny-browse-dark.svg?v=ad0eb01b"><img alt="tiny-browse: gives any AI agent web search as clean Markdown, in 126 kB" src="assets/img/card-tiny-browse-light.svg?v=41aecfd0" width="48%"></picture></a></p>
+<p><a href="https://shubhamcodess.github.io/mcp-token-optimizer/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-mcp-token-optimizer-dark.svg?v=56d5fecc"><img alt="mcp-token-optimizer: a local proxy that strips noise from MCP tool responses" src="assets/img/card-mcp-token-optimizer-light.svg?v=5bb62a0a" width="48%"></picture></a><a href="https://github.com/shubhamcodess/tiny-browse"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-tiny-browse-dark.svg?v=f6a72e94"><img alt="tiny-browse: gives any AI agent web search as clean Markdown, in 126 kB" src="assets/img/card-tiny-browse-light.svg?v=d77008f2" width="48%"></picture></a></p>
 
-<p><a href="https://shubhamcodess.github.io/whatcmd/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-whatcmd-dark.svg?v=29e7b334"><img alt="whatcmd: plain English in, the right shell command out, on a local model" src="assets/img/card-whatcmd-light.svg?v=d4e8429c" width="48%"></picture></a><a href="https://github.com/shubhamcodess/notch-porch"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-notch-porch-dark.svg?v=b9c3b268"><img alt="notch-porch: a widget dock that lives in your MacBook's notch" src="assets/img/card-notch-porch-light.svg?v=6f114905" width="48%"></picture></a></p>
+<p><a href="https://shubhamcodess.github.io/whatcmd/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-whatcmd-dark.svg?v=1e6acc8b"><img alt="whatcmd: plain English in, the right shell command out, on a local model" src="assets/img/card-whatcmd-light.svg?v=38ec3100" width="48%"></picture></a><a href="https://github.com/shubhamcodess/notch-porch"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-notch-porch-dark.svg?v=afa4e21f"><img alt="notch-porch: a widget dock that lives in your MacBook's notch" src="assets/img/card-notch-porch-light.svg?v=e1276fec" width="48%"></picture></a></p>
 
 <div align="center">
 
@@ -44,19 +44,19 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg?v=6442d83c"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg?v=a5e8ab0b" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[OpenAI launches GPT-6.2 Astra and Sol, cutting Astra's price by 20% and its cached input rate by 60%](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
-  <sub><i>The cheaper cached input rate matters most for long agent sessions, where the same context is re-read on every step.</i></sub>
-- **[Nvidia's board rules out Jensen Huang's return as CEO, despite Trump's support](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`STARTUPS`</sub>  
-  <sub><i>Huang said he would be honored to return, but the board says reinstatement is not under consideration while an internal investigation continues.</i></sub>
-- **[Java4Shell: OpenJDK Base64 decoder bug lets unauthenticated attackers run code, researchers say](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>The researchers report remote code execution in widely deployed products including Jenkins, Jira and Confluence, in their default configurations.</i></sub>
+- **[Two critical NGINX flaws allow code execution without a login; patch with the November 18 release](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>The bugs need HTTP/2 switched on, but Wiz's testing ran code on a stock server that only served static files, so the exposure is wider than apps with…</i></sub>
+- **[Anthropic prices its IPO at $83 a share, above range, for a $1.5 trillion valuation](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`STARTUPS`</sub>  
+  <sub><i>Demand looks strong, but the valuation comes in below the $2 trillion the company reportedly aimed for several months ago.</i></sub>
+- **[Gemini 4 Neon ranks third on the Artificial Analysis index at $3 per million input tokens](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>Google's own figures put Neon near the top on agent and legal benchmarks, with a 1 million-token window and a steep discount on cached input.</i></sub>
 
-<sub>Edition of Wed 18 Nov 2026 · 26 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Thu 19 Nov 2026 · 20 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg?v=4766a7cc"><img alt="On the Wire" src="assets/img/section-activity-light.svg?v=1f9e7664" width="100%"></picture></p>
 
-<p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/stats-dark.svg?v=2f66493f"><img alt="GitHub activity: contributions, streaks and top languages" src="assets/img/stats-light.svg?v=938e5427" width="100%"></picture></p>
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/stats-dark.svg?v=ac80c18c"><img alt="GitHub activity: contributions, streaks and top languages" src="assets/img/stats-light.svg?v=28453aa4" width="100%"></picture></p>
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shubhamcodess/shubhamcodess/output/snake-dark.svg"><img alt="Contribution graph being eaten by a snake" src="https://raw.githubusercontent.com/shubhamcodess/shubhamcodess/output/snake-light.svg" width="100%"></picture></p>
 
