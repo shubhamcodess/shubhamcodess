@@ -17,9 +17,9 @@
 
 <p><a href="https://shubhamcodess.github.io/everything-tech-newsletter/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-everythingtech-dark.svg?v=5671b5bf"><img alt="EverythingTech: a daily tech newspaper with no human editor, written by a Claude Code routine from 45+ sources" src="assets/img/card-everythingtech-light.svg?v=8b948314" width="100%"></picture></a></p>
 
-<p><a href="https://shubhamcodess.github.io/mcp-token-optimizer/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-mcp-token-optimizer-dark.svg?v=16490b25"><img alt="mcp-token-optimizer: a local proxy that strips noise from MCP tool responses" src="assets/img/card-mcp-token-optimizer-light.svg?v=1f11c7dd" width="48%"></picture></a><a href="https://github.com/shubhamcodess/tiny-browse"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-tiny-browse-dark.svg?v=ec7c612a"><img alt="tiny-browse: gives any AI agent web search as clean Markdown, in 126 kB" src="assets/img/card-tiny-browse-light.svg?v=eeb7d0d5" width="48%"></picture></a></p>
+<p><a href="https://shubhamcodess.github.io/mcp-token-optimizer/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-mcp-token-optimizer-dark.svg?v=61a257f5"><img alt="mcp-token-optimizer: a local proxy that strips noise from MCP tool responses" src="assets/img/card-mcp-token-optimizer-light.svg?v=cb8fe584" width="48%"></picture></a><a href="https://github.com/shubhamcodess/tiny-browse"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-tiny-browse-dark.svg?v=0005e784"><img alt="tiny-browse: gives any AI agent web search as clean Markdown, in 126 kB" src="assets/img/card-tiny-browse-light.svg?v=2268c811" width="48%"></picture></a></p>
 
-<p><a href="https://shubhamcodess.github.io/whatcmd/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-whatcmd-dark.svg?v=7470907d"><img alt="whatcmd: plain English in, the right shell command out, on a local model" src="assets/img/card-whatcmd-light.svg?v=c42119ef" width="48%"></picture></a><a href="https://github.com/shubhamcodess/notch-porch"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-notch-porch-dark.svg?v=b1eebd60"><img alt="notch-porch: a widget dock that lives in your MacBook's notch" src="assets/img/card-notch-porch-light.svg?v=61428617" width="48%"></picture></a></p>
+<p><a href="https://shubhamcodess.github.io/whatcmd/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-whatcmd-dark.svg?v=3ca12a59"><img alt="whatcmd: plain English in, the right shell command out, on a local model" src="assets/img/card-whatcmd-light.svg?v=4838ee9f" width="48%"></picture></a><a href="https://github.com/shubhamcodess/notch-porch"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/card-notch-porch-dark.svg?v=395e0fe1"><img alt="notch-porch: a widget dock that lives in your MacBook's notch" src="assets/img/card-notch-porch-light.svg?v=a3743c7b" width="48%"></picture></a></p>
 
 <div align="center">
 
@@ -44,19 +44,19 @@
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-today-dark.svg?v=6442d83c"><img alt="Today in EverythingTech" src="assets/img/section-today-light.svg?v=a5e8ab0b" width="100%"></picture></p>
 
 <!-- NEWS:START -->
-- **[Anthropic's $81.3 billion IPO is the largest on record, valuing the Claude maker near $1.5 trillion](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`STARTUPS`</sub>  
-  <sub><i>Shares sold at $83 apiece, and the listing topped SpaceX's offering as the biggest public share sale in history.</i></sub>
-- **[Ruby2Shell: a one-byte heap overflow gives unauthenticated remote code execution on stock Rails](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>Patched Ruby releases 3.3.14, 3.4.13 and 4.0.10 close the bug, but self-hosted products that bundle their own Ruby must wait for their vendors.</i></sub>
-- **[PHP's security releases fix seven critical RCE flaws, four weeks after the PHP2Shell patches](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`SECURITY`</sub>  
-  <sub><i>One of the seven, in file-upload progress tracking, needs an unusual combination of configuration settings before it can be triggered.</i></sub>
+- **[A mathematician claims a Lean-formalized proof of the Generalized Riemann Hypothesis](https://shubhamcodess.github.io/everything-tech-newsletter/#s-1)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>The claim is enormous, the proof is formalized in Lean, and the verification effort around it is now the real test.</i></sub>
+- **[Attackers and resellers leaked nearly two million planted secrets from AI routers](https://shubhamcodess.github.io/everything-tech-newsletter/#s-2)** &nbsp;<sub>`SECURITY`</sub>  
+  <sub><i>The experiment planted unique secrets in prompts, and they came back out through providers, resellers and attackers.</i></sub>
+- **[OpenAI says adversarial distillation cut protected-reasoning extraction from 54% to 0.2%](https://shubhamcodess.github.io/everything-tech-newsletter/#s-3)** &nbsp;<sub>`AI`</sub>  
+  <sub><i>OpenAI is treating model extraction as a safety problem, not only an intellectual-property one.</i></sub>
 
-<sub>Edition of Fri 20 Nov 2026 · 21 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
+<sub>Edition of Sat 21 Nov 2026 · 14 stories · <a href="https://shubhamcodess.github.io/everything-tech-newsletter/">read the full paper ↗</a></sub>
 <!-- NEWS:END -->
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/section-activity-dark.svg?v=4766a7cc"><img alt="On the Wire" src="assets/img/section-activity-light.svg?v=1f9e7664" width="100%"></picture></p>
 
-<p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/stats-dark.svg?v=a1a23cd3"><img alt="GitHub activity: contributions, streaks and top languages" src="assets/img/stats-light.svg?v=52d9a806" width="100%"></picture></p>
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/stats-dark.svg?v=9c46a45a"><img alt="GitHub activity: contributions, streaks and top languages" src="assets/img/stats-light.svg?v=4165da3e" width="100%"></picture></p>
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shubhamcodess/shubhamcodess/output/snake-dark.svg"><img alt="Contribution graph being eaten by a snake" src="https://raw.githubusercontent.com/shubhamcodess/shubhamcodess/output/snake-light.svg" width="100%"></picture></p>
 
